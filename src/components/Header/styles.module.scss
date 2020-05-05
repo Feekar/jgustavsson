@@ -1,16 +1,16 @@
 .header {
   width: 100%;
-  border-bottom: 1px solid #eee;
   padding: 0 1rem;
   box-sizing: border-box;
   position: sticky;
   top: 0;
   background: white;
   z-index: 1;
+  box-shadow: var(--shadow);
 }
 
 .inner-container {
-  max-width: 60rem;
+  max-width: 52rem;
   height: 4rem;
   margin: 0 auto;
   justify-content: space-between;

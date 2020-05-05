@@ -6,7 +6,7 @@ module.exports = {
       summary: "I blog about web development.",
     },
     description: "A blog where I write about all things web.",
-    siteUrl: "addsite",
+    siteUrl: "https://github.com/Feekar/like-a-spider",
     social: {
       twitter: "none",
     },
@@ -17,8 +17,8 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Lato",
-            variants: ["500", "700"],
+            family: "Raleway",
+            variants: ["400", "700"],
           },
         ],
       },

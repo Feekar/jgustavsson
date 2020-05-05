@@ -8,23 +8,23 @@ const PostPreview = ({ post }) => {
 
   const title = frontmatter.title || fields.slug;
   return (
-    <article className={styles.postPreview} key={fields.slug}>
-      <header>
-        <h2>
-          <Link style={{ boxShadow: `none` }} to={fields.slug}>
-            {title}
-          </Link>
-        </h2>
-        <small>{frontmatter.date}</small>
-      </header>
-      <section>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: frontmatter.description || excerpt,
-          }}
-        />
-      </section>
-    </article>
+    <Link to={fields.slug} className={styles.container}>
+      <article className={styles.postPreview} key={fields.slug}>
+        <header>
+          <h2>{title}</h2>
+          <br />
+          <small>{frontmatter.date}</small>
+        </header>
+        <section>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: frontmatter.description || excerpt,
+            }}
+          />
+        </section>
+        <span className={styles.readMore}>Read article</span>
+      </article>
+    </Link>
   );
 };
 
