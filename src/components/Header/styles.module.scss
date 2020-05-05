@@ -1,6 +1,30 @@
 .header {
-  max-width: 80rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
+.inner-container {
+  max-width: 60rem;
+  height: 4rem;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--main-color);
+
+  span {
+    color: #222;
+  }
 }

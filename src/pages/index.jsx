@@ -3,24 +3,19 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
-import PostPreview from "../components/PostPreview";
+import Posts from "../components/Posts";
 
-const BlogPosts = ({ data, location }) => {
+const StartPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
-  const posts = data.allMarkdownRemark.edges;
-
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <h3>This is home page</h3>
-      {posts.map(post => {
-        return <PostPreview post={post} />;
-      })}
+      <SEO title="Web Development Blog" />
+      <Posts posts={data.allMarkdownRemark.edges} />
     </Layout>
   );
 };
 
-export default BlogPosts;
+export default StartPage;
 
 export const pageQuery = graphql`
   query {

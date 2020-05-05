@@ -1,17 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
+    title: "Like A Spider",
     author: {
-      name: "Kyle Mathews",
-      summary: "who lives and works in San Francisco building useful things.",
+      name: "Jonas Gustavsson",
+      summary: "I blog about web development.",
     },
-    description: "A starter blog demonstrating what Gatsby can do.",
-    siteUrl: "https://gatsby-starter-blog-demo.netlify.com/",
+    description: "A blog where I write about all things web.",
+    siteUrl: "addsite",
     social: {
-      twitter: "kylemathews",
+      twitter: "none",
     },
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-prefetch-google-fonts",
+      options: {
+        fonts: [
+          {
+            family: "Lato",
+            variants: ["500", "700"],
+          },
+        ],
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-eslint",
     {

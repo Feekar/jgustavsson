@@ -1,0 +1,17 @@
+.all-posts {
+  color: var(--main-color);
+  position: relative;
+  margin-bottom: 2rem;
+  display: inline-block;
+
+  &:after {
+    position: absolute;
+    margin-left: 1rem;
+    bottom: 50%;
+    height: 1px;
+    width: 10rem;
+    background: var(--main-color);
+    opacity: 0.6;
+    content: "";
+  }
+}
