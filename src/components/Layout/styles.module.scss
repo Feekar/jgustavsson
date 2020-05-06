@@ -1,9 +1,9 @@
 .app-container {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
-  max-width: 52rem;
+  max-width: var(--site-width);
   margin: 0 auto;
   margin-top: 2 rem;
   padding: 1rem;
@@ -11,20 +11,39 @@
 
 :global(body) {
   margin: 0;
-  color: #222;
+  color: #333;
+  background: var(--background-color);
 }
 
 :global(a) {
   text-decoration: none;
   color: var(--color-black);
+
+  &:hover {
+    color: #111;
+  }
+}
+
+:global(h1),
+:global(h2),
+:global(h3),
+:global(h4),
+:global(h5),
+:global(h6) {
+  font-weight: 500;
+  color: #111;
 }
 
 :global(:root) {
   // --main-color: #6d5aff;
-  --main-color: #ff5454;
+  --main-color: #548fff;
   --secondary-color: #ffb74b;
-  --color-black: #222;
+  --color-black: #333;
+  --color-black-light: #555;
   --color-gray: #6b6b6b;
   --shadow: 0 2px 4px #dee2e6;
   --border: 1px solid #ececec;
+  --background-color: #f9fbfd;
+  --border-color: #edf2f8;
+  --site-width: 55rem;
 }

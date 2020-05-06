@@ -17,8 +17,8 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Raleway",
-            variants: ["400", "700"],
+            family: "Montserrat",
+            variants: ["400", "500"],
           },
         ],
       },

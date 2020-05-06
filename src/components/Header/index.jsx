@@ -6,14 +6,15 @@ import styles from "./styles.module.scss";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.innerContainer}>
-        <Link to="/" className={styles.logo}>
-          <span>&lt;</span>
-          LikeASpider
-          <span>/&gt;</span>
-        </Link>
-        <nav>Nav links bla</nav>
-      </div>
+      <Link to="/" className={styles.logo}>
+        <span>&lt;</span>
+        LikeASpider
+        <span>/&gt;</span>
+      </Link>
+      <nav className={styles.nav}>
+        <Link to="/">Blog</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </header>
   );
 };

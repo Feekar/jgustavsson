@@ -1,30 +1,45 @@
 .header {
-  width: 100%;
-  padding: 0 1rem;
-  box-sizing: border-box;
-  position: sticky;
-  top: 0;
-  background: white;
-  z-index: 1;
-  box-shadow: var(--shadow);
-}
-
-.inner-container {
-  max-width: 52rem;
-  height: 4rem;
+  max-width: var(--site-width);
   margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   display: flex;
+  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid #dfe6ec;
 }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: 1.6rem;
   text-decoration: none;
   color: var(--main-color);
+  display: inline-block;
+  padding: 2rem 0;
+
+  &:hover {
+    color: var(--main-color);
+  }
 
   span {
-    color: #222;
+    color: #333;
+  }
+}
+
+.nav {
+  display: flex;
+  a {
+    font-weight: 600;
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: inline-block;
+    color: var(--color-black-light);
+    margin-bottom: -1px;
+    text-decoration: none;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+
+    &:hover {
+      border-bottom: 1px solid black;
+      margin-top: -1px;
+    }
   }
 }
