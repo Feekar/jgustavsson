@@ -5,10 +5,9 @@ import Layout from "../components/Layout";
 import SEO from "../components/seo";
 import Posts from "../components/Posts";
 
-const StartPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title;
+const StartPage = ({ data }) => {
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout>
       <SEO title="Web Development Blog" />
       <Posts posts={data.allMarkdownRemark.edges} />
     </Layout>

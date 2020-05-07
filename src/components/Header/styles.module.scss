@@ -3,8 +3,7 @@
   margin: 0 auto;
   flex-direction: column;
   display: flex;
-  border-bottom: 1px solid var(--border-color);
-  border-bottom: 1px solid #dfe6ec;
+  padding: 0 1rem;
 }
 
 .logo {
@@ -25,6 +24,8 @@
 
 .nav {
   display: flex;
+  border-bottom: 1px solid #dfe6ec;
+
   a {
     font-weight: 600;
     padding: 1rem 1rem 1.5rem 1rem;

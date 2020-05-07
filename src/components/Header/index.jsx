@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.header}>
       <Link to="/" className={styles.logo}>
         <span>&lt;</span>
-        LikeASpider
+        WebLikeSpider
         <span>/&gt;</span>
       </Link>
       <nav className={styles.nav}>
