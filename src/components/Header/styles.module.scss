@@ -24,7 +24,7 @@
 
 .nav {
   display: flex;
-  border-bottom: 1px solid #dfe6ec;
+  border-bottom: 1px solid var(--border-color);
 
   a {
     font-weight: 600;

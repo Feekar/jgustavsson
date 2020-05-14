@@ -38,6 +38,7 @@
 :global(:root) {
   // --main-color: #6d5aff;
   --main-color: #548fff;
+  --main-color-dark: #497de0;
   --secondary-color: #ffb74b;
   --color-black: #333;
   --color-black-light: #555;
@@ -45,6 +46,7 @@
   --shadow: 0 2px 4px #dee2e6;
   --border: 1px solid #ececec;
   --background-color: #f9fbfd;
-  --border-color: #edf2f8;
+  --border-color: #dfe6ec;
+  --border-color-light: #edf2f8;
   --site-width: 55rem;
 }

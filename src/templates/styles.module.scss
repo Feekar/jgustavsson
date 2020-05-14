@@ -1,0 +1,26 @@
+.main {
+  padding-top: 0.5rem;
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+
+  section {
+    min-width: 22rem;
+  }
+}
+
+.header {
+  border-bottom: 1px solid var(--border-color-light);
+  padding-bottom: 1rem;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  small {
+    color: var(--color-gray);
+  }
+}
+
+.footer {
+  margin-top: 2rem;
+}

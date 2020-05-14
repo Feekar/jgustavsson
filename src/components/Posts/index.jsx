@@ -8,7 +8,7 @@ const Posts = ({ posts }) => {
       <h1 className={styles.header}>Web Development Articles</h1>
       <span className={styles.allPosts}>ALL POSTS</span>
       {posts.map(post => {
-        return <PostPreview post={post} />;
+        return <PostPreview post={post} key={post.node.fields.slug} />;
       })}
     </>
   );

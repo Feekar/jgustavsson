@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql } from "gatsby";
+
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
 
@@ -6,8 +8,17 @@ import linkIcon from "../../content/assets/external-link.svg";
 
 import styles from "./styles.module.scss";
 
-// eslint-disable-next-line no-unused-vars
 const Contact = props => {
+  const {
+    data: {
+      site: {
+        siteMetadata: {
+          social: { twitter, linkedIn, github, email },
+        },
+      },
+    },
+  } = props;
+
   return (
     <Layout>
       <SEO title="Contact" />
@@ -28,23 +39,23 @@ const Contact = props => {
         </p>
         <ul className={styles.links}>
           <li>
-            <a href="https://twitter.com/weblikespider/">
+            <a href={twitter}>
               Twitter <img src={linkIcon} alt="external link" />
             </a>
           </li>
           <li>
-            <a href="mailto:jonasgson@outlook.com">
+            <a href={email}>
               Email <img src={linkIcon} alt="external link" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/">
+            <a href={linkedIn}>
               LinkedIn
               <img src={linkIcon} alt="external link" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/Feekar/">
+            <a href={github}>
               GitHub <img src={linkIcon} alt="external link" />
             </a>
           </li>
@@ -55,3 +66,18 @@ const Contact = props => {
 };
 
 export default Contact;
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        social {
+          twitter
+          linkedIn
+          github
+          email
+        }
+      }
+    }
+  }
+`;

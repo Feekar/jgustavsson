@@ -5,10 +5,14 @@ module.exports = {
       name: "Jonas Gustavsson",
       summary: "I blog about web development.",
     },
-    description: "A blog where I write about all things web.",
+    description:
+      "Articles about all things web development. Javascript, CSS, HTML, React.js and more.",
     siteUrl: "https://github.com/Feekar/like-a-spider",
     social: {
       twitter: "https://twitter.com/weblikespider",
+      linkedIn: "https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/",
+      github: "https://github.com/Feekar/",
+      email: "mailto:jonasgson@outlook.com",
     },
   },
   plugins: [

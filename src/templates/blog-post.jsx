@@ -1,9 +1,14 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
-import Bio from "../components/bio";
 import Layout from "../components/Layout";
+import PostShare from "../components/PostShare";
+import PostShareBottom from "../components/PostShareBottom";
+import PostBottomNav from "../components/PostBottomNav";
+
 import SEO from "../components/seo";
+
+import styles from "./styles.module.scss";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -16,44 +21,25 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      TEST HELLO TEMPLATE
-      <article>
-        <header>
-          <h1>{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
-        <footer>
-          <Bio />
-        </footer>
-      </article>
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+      <div>
+        <article>
+          <header className={styles.header}>
+            <h1>{post.frontmatter.title}</h1>
+            <small>{post.frontmatter.date}</small>
+          </header>
+          <div className={styles.main}>
+            <section dangerouslySetInnerHTML={{ __html: post.html }} />
+            <PostShare title={post.frontmatter.title} href={location.href} />
+          </div>
+          <footer className={styles.footer}>
+            <PostShareBottom
+              title={post.frontmatter.title}
+              href={location.href}
+            />
+          </footer>
+        </article>
+        <PostBottomNav previous={previous} next={next} />
+      </div>
     </Layout>
   );
 };
