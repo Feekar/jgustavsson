@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.bar {
+  background: var(--main-color);
+  height: 0.25rem;
+  transition: 0.2s;
+  transform: scaleX(0);
+  transform-origin: left;
+}

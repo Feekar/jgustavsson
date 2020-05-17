@@ -9,6 +9,7 @@ import PostBottomNav from "../components/PostBottomNav";
 import SEO from "../components/seo";
 
 import styles from "./styles.module.scss";
+import ScrollProgressIndicator from "../components/ScrollProgressIndicator";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -21,6 +22,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <ScrollProgressIndicator />
       <div>
         <article>
           <header className={styles.header}>
