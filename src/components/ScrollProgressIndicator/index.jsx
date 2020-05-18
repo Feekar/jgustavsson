@@ -7,7 +7,6 @@ import styles from "./styles.module.scss";
 
 const ScrollProgressIndicator = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
-  console.log(throttle);
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     const totalHeight = document.body.clientHeight - window.innerHeight;
