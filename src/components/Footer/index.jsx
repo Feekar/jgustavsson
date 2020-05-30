@@ -1,13 +1,51 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
-import style from "./styles.module.scss";
+import styles from "./styles.module.scss";
 
 const Footer = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            social {
+              twitter
+              email
+              linkedIn
+              github
+            }
+          }
+        }
+      }
+    `
+  );
+
+  const {
+    site: {
+      siteMetadata: {
+        social: { twitter, linkedIn, github, email },
+      },
+    },
+  } = data;
+
   return (
-    <footer className={style.footer}>
-      <span>Made with </span>
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-      <span> and covid-driven development</span>
+    <footer className={styles.footer}>
+      <ul className={styles.links}>
+        <li>
+          <a href={twitter}>Twitter</a>
+        </li>
+        <li>
+          <a href={email}>Email</a>
+        </li>
+        <li>
+          <a href={linkedIn}>LinkedIn</a>
+        </li>
+        <li>
+          <a href={github}>GitHub</a>
+        </li>
+      </ul>
     </footer>
   );
 };

@@ -1,5 +1,7 @@
 .app-container {
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  min-height: 100vh;
 }
 
 .main {
@@ -7,6 +9,7 @@
   margin: 0 auto;
   margin-top: 2 rem;
   padding: 1rem;
+  padding-bottom: 10rem;
 }
 
 :global(body) {
