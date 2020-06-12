@@ -39,11 +39,13 @@
 
 .container {
   display: block;
+  text-decoration: none;
   &:after {
     display: none;
   }
 
   &:hover {
+    font-weight: normal;
     h2 {
       &:after {
         opacity: 1;

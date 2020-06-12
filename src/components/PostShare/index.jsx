@@ -8,7 +8,6 @@ const PostShare = ({ title, href }) => {
   return (
     <aside className={styles.container}>
       <div className={styles.twitter}>
-        <span>Liked it?</span>
         <TwitterButton title={title} href={href} />
       </div>
     </aside>

@@ -12,7 +12,7 @@ module.exports = {
       twitter: "https://twitter.com/weblikespider",
       linkedIn: "https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/",
       github: "https://github.com/Feekar/",
-      email: "mailto:jonasgson@outlook.com",
+      email: "mailto:jonas@weblikespider.com",
     },
   },
   plugins: [
@@ -48,9 +48,23 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embedded-codesandbox",
+            options: {
+              directory: `${__dirname}/content/blog/`,
+              // Customise Codesandbox embedding options:
+              // https://codesandbox.io/docs/embedding#embed-options
+              // default:
+              embedOptions: {
+                view: "preview",
+                hidenavigation: 1,
+              },
+            },
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 590,
+              maxWidth: 450,
+              wrapperStyle: "margin-left: 0;",
             },
           },
           {
@@ -59,9 +73,20 @@ module.exports = {
               wrapperStyle: "margin-bottom: 1.0725rem",
             },
           },
-          "gatsby-remark-prismjs",
+          {
+            resolve: "gatsby-remark-prismjs",
+            options: {
+              inlineCodeMarker: "<",
+            },
+          },
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-smartypants",
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              icon: false,
+            },
+          },
         ],
       },
     },

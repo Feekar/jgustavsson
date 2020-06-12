@@ -6,10 +6,12 @@
   border-radius: 5px;
   transition: 0.2s;
   align-items: center;
+  text-decoration: none;
 
   &:hover {
     color: white;
     background: var(--main-color-dark);
+    font-weight: normal;
   }
 
   img {
