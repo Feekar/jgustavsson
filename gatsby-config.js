@@ -7,7 +7,7 @@ module.exports = {
     },
     description:
       "Articles about all things web development. Javascript, CSS, HTML, React.js and more.",
-    siteUrl: "https://github.com/Feekar/like-a-spider",
+    siteUrl: "https://github.com/feekar/like-a-spider",
     social: {
       twitter: "https://twitter.com/weblikespider",
       linkedIn: "https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/",
