@@ -102,8 +102,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Web Like Spider",
-        short_name: "LaS",
+        name: "WebLikeSpider",
+        short_name: "WLS",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#663399",
@@ -116,4 +116,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
+  pathPrefix: "/web-like-spider",
 };
