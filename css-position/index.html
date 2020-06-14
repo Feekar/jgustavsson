@@ -1,0 +1,263 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/web-like-spider/styles.c8ccac84401cdd15ed2e.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/web-like-spider/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/web-like-spider/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/web-like-spider/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/web-like-spider/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/web-like-spider/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/web-like-spider/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/web-like-spider/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/web-like-spider/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/web-like-spider/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/web-like-spider/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/web-like-spider/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/web-like-spider/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/web-like-spider/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/web-like-spider/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/web-like-spider/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/web-like-spider/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/web-like-spider/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/web-like-spider/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/web-like-spider/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/web-like-spider/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/web-like-spider/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/web-like-spider/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/web-like-spider/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/web-like-spider/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/web-like-spider/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/web-like-spider/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/web-like-spider/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/web-like-spider/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.styles-module--header--SIgfk{max-width:var(--site-width);margin:0 auto;flex-direction:column;display:flex;padding:0 1rem}.styles-module--logo--cVugw{font-size:1.6rem;text-decoration:none;color:var(--main-color);display:inline-block;padding:2rem 0}.styles-module--logo--cVugw:hover{color:var(--main-color);font-weight:400}.styles-module--logo--cVugw span{color:#333}.styles-module--nav--3ZH7V{display:flex;border-bottom:1px solid var(--border-color)}.styles-module--nav--3ZH7V a{font-weight:600;padding:1rem 1rem 1.5rem;display:inline-block;color:var(--color-black-light);margin-bottom:-1px;text-decoration:none}.styles-module--nav--3ZH7V a:first-of-type{padding-left:0}.styles-module--nav--3ZH7V a:hover{border-bottom:1px solid #000;margin-top:-1px}.styles-module--footer--1wCyQ{position:absolute;bottom:0;width:100%;height:4rem}.styles-module--links--3BILn,.styles-module--links--3BILn li{display:flex;justify-content:center}.styles-module--links--3BILn li{list-style:none;margin-right:1.5rem;font-weight:500;opacity:.85}.styles-module--links--3BILn li:hover{text-decoration:underline;opacity:1}.styles-module--app-container--2ZRVe{font-family:Montserrat,sans-serif;position:relative;min-height:100vh}.styles-module--main--tu_NS{max-width:var(--site-width);margin:2 rem auto 0;padding:1rem 1rem 10rem}body{margin:0;color:#333;background:var(--background-color);line-height:1.5}a{color:#3b7fff}a:hover{font-weight:600}code{background:#e6e6e6;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace}h1,h2,h3,h4,h5,h6{font-weight:500;color:#111}h2{font-size:1.3rem;margin-top:2.5rem}:root{--main-color:#548fff;--main-color-dark:#497de0;--secondary-color:#ffb74b;--color-black:#333;--color-black-light:#555;--color-gray:#6b6b6b;--shadow:0 2px 4px #dee2e6;--border:1px solid #ececec;--background-color:#f9fbfd;--border-color:#dfe6ec;--border-color-light:#edf2f8;--site-width:55rem}iframe{width:100%;height:400px}.styles-module--contact--w-D3I{margin:2rem auto 0;max-width:37rem}.styles-module--contact--w-D3I .styles-module--title--2B_k0{display:inline-block;margin-right:.3rem;font-weight:400;text-decoration:underline}.styles-module--contact--w-D3I .styles-module--links--3KZOF{padding:0;display:flex;flex-wrap:wrap}.styles-module--contact--w-D3I .styles-module--links--3KZOF li{list-style:none;display:flex;margin-right:1.5rem}.styles-module--contact--w-D3I .styles-module--links--3KZOF li img{margin-left:.3rem;height:1rem}.styles-module--contact--w-D3I .styles-module--links--3KZOF a{text-decoration:underline;font-weight:500}.styles-module--contact--w-D3I .styles-module--links--3KZOF a:hover{font-weight:700}.styles-module--contact--w-D3I .styles-module--links-container--7a-jK{display:flex;flex-direction:column;align-items:center}.styles-module--post-preview--3exEN{margin-bottom:1rem;background:#fff;padding:1rem;border-radius:.5rem;box-shadow:0 .75rem 1.5rem rgba(19,38,64,.04);border:1px solid var(--border-color-light)}.styles-module--post-preview--3exEN small{color:var(--color-gray)}.styles-module--post-preview--3exEN h2{margin-top:0;margin-bottom:.2rem;display:inline-block;position:relative;font-weight:400}.styles-module--post-preview--3exEN h2:after{transition:.2s ease-in-out;position:absolute;bottom:1px;left:0;width:100%;height:2px;content:"";background:var(--color-black);opacity:0}.styles-module--post-preview--3exEN p,.styles-module--post-preview--3exEN small{color:var(--color-gray)}.styles-module--container--u0Jna{display:block;text-decoration:none}.styles-module--container--u0Jna:after{display:none}.styles-module--container--u0Jna:hover{font-weight:400}.styles-module--container--u0Jna:hover h2:after{opacity:1}.styles-module--readMore--2UVrq{font-size:.9rem;color:#fff;display:inline-block;background:var(--main-color);padding:.2rem .5rem;border-radius:5px;transition:.2s}.styles-module--readMore--2UVrq:hover{background:var(--main-color-dark)}.styles-module--all-posts--3klCC{color:var(--main-color);position:relative;margin-bottom:2rem;display:inline-block}.styles-module--all-posts--3klCC:after{position:absolute;margin-left:1rem;bottom:50%;height:1px;width:10rem;background:var(--main-color);opacity:.6;content:""}.styles-module--header--1I-45{color:var(--color-black);font-weight:400;padding:2rem 2rem 2rem 0;margin:1rem 0}.styles-module--container--294sc{display:flex;flex-direction:column;align-items:center;margin-top:1rem;min-width:15rem;max-width:15rem}@media only screen and (max-width:50rem){.styles-module--container--294sc{display:none}}.styles-module--twitter--26QU_{display:flex;flex-direction:column;position:-webkit-sticky;position:sticky;top:10rem;margin-bottom:1rem}.styles-module--twitter--26QU_ span{color:var(--color-gray);display:inline-block;margin-bottom:.4rem}.styles-module--button--2XS2M{color:#fff;background:var(--main-color);padding:.2rem .5rem;display:flex;border-radius:5px;transition:.2s;align-items:center;text-decoration:none}.styles-module--button--2XS2M:hover{color:#fff;background:var(--main-color-dark);font-weight:400}.styles-module--button--2XS2M img{margin-right:.4rem;height:1.2rem}@media only screen and (min-width:50rem){.styles-module--container--1ZN-C{display:none}}.styles-module--twitter--17qAc{display:flex;flex-direction:column;align-items:flex-start}.styles-module--twitter--17qAc span{color:var(--color-gray);display:inline-block;margin-bottom:.4rem}.styles-module--container--1_ape{display:flex;justify-content:space-between;margin-top:2rem}.styles-module--link--BlOUi{font-weight:500;display:flex;align-items:center}.styles-module--link--BlOUi:hover{text-decoration:underline}.styles-module--link--BlOUi img{width:.8rem;opacity:.9}.styles-module--arrow-left--3NB4R{transform:rotate(180deg);margin-right:.5rem}.styles-module--arrow-right--z9I5j{margin-left:.5rem}.styles-module--main--1Cttg{padding-top:.5rem;display:flex;border-bottom:1px solid var(--border-color)}.styles-module--main--1Cttg section{min-width:22rem}.styles-module--header--3Umda{border-bottom:1px solid var(--border-color-light);padding-bottom:1rem}.styles-module--header--3Umda h1{margin-bottom:0}.styles-module--header--3Umda small{color:var(--color-gray)}.styles-module--footer--3V8-j{margin-top:2rem}.styles-module--container--3DBHW{position:fixed;top:0;left:0;width:100vw;z-index:1}.styles-module--bar--2A1vj{background:var(--main-color);height:.25rem;transition:.2s;transform:scaleX(0);transform-origin:left}</style><meta name="generator" content="Gatsby 2.21.0"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/arvo/v13/tDbD2oWUg0MKqScQ7Q.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/arvo/v13/tDbM2oWUg0MKoZw1-LPK8w.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/baloo2/v1/wXKrE3kTposypRyd51jcAA.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/baloo2/v1/wXKuE3kTposypRyd7-P5FeMKmA.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/web-like-spider/google-fonts/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2"/><style type="text/css">@font-face{font-family:Montserrat;font-style:normal;font-weight:400;src:local('Montserrat Regular'),local('Montserrat-Regular'),url(/web-like-spider/google-fonts/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2'),url(/web-like-spider/google-fonts/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WlhzQ.woff) format('woff');font-display: swap;}@font-face{font-family:Montserrat;font-style:normal;font-weight:500;src:local('Montserrat Medium'),local('Montserrat-Medium'),url(/web-like-spider/google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2) format('woff2'),url(/web-like-spider/google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD-A.woff) format('woff');font-display: swap;}</style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/web-like-spider/rss.xml"/><link rel="icon" href="/web-like-spider/favicon-32x32.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="manifest" href="/web-like-spider/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/web-like-spider/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="72x72" href="/web-like-spider/icons/icon-72x72.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="96x96" href="/web-like-spider/icons/icon-96x96.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="144x144" href="/web-like-spider/icons/icon-144x144.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="192x192" href="/web-like-spider/icons/icon-192x192.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="256x256" href="/web-like-spider/icons/icon-256x256.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="384x384" href="/web-like-spider/icons/icon-384x384.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="512x512" href="/web-like-spider/icons/icon-512x512.png?v=edf3d310d67f8284a562bc3a58c3e761"/><title data-react-helmet="true">CSS Position quick guide | Web Like Spider</title><meta data-react-helmet="true" name="description" content="The CSS Position property defines how elements are positioned on the page given certain values.  Knowing how position works is essential to truly master CSS. "/><meta data-react-helmet="true" property="og:title" content="CSS Position quick guide"/><meta data-react-helmet="true" property="og:description" content="The CSS Position property defines how elements are positioned on the page given certain values.  Knowing how position works is essential to truly master CSS. "/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="https://twitter.com/weblikespider"/><meta data-react-helmet="true" name="twitter:title" content="CSS Position quick guide"/><meta data-react-helmet="true" name="twitter:description" content="The CSS Position property defines how elements are positioned on the page given certain values.  Knowing how position works is essential to truly master CSS. "/><link as="script" rel="preload" href="/web-like-spider/app-8bca35c88d36a094854f.js"/><link as="script" rel="preload" href="/web-like-spider/component---src-templates-blog-post-jsx-60c93ee60029b1e8dffb.js"/><link as="script" rel="preload" href="/web-like-spider/6d49c2edeebbda98054eb4771ac1e0d5c3d19c21-c8173f014f81bcc30f86.js"/><link as="script" rel="preload" href="/web-like-spider/styles-6b8affa5cc22cb60670e.js"/><link as="script" rel="preload" href="/web-like-spider/framework-a74044b4add31353c05b.js"/><link as="script" rel="preload" href="/web-like-spider/webpack-runtime-732e0ced493e7dd8f234.js"/><link as="fetch" rel="preload" href="/web-like-spider/page-data\css-position\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/web-like-spider/page-data\app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="styles-module--app-container--2ZRVe"><header class="styles-module--header--SIgfk"><a class="styles-module--logo--cVugw" href="/web-like-spider/"><span>&lt;</span>WebLikeSpider<span>/&gt;</span></a><nav class="styles-module--nav--3ZH7V"><a href="/web-like-spider/">Blog</a><a href="/web-like-spider/contact">Contact</a></nav></header><main class="styles-module--main--tu_NS"><div class="styles-module--container--3DBHW"><div class="styles-module--bar--2A1vj" style="transform:scaleX(0)"></div></div><div><article><header class="styles-module--header--3Umda"><h1>CSS Position quick guide</h1><small>June 02, 2020</small></header><div class="styles-module--main--1Cttg"><section><p>The CSS position property is one of the fundamental properties you need to know in order to feel
+truly comfortable in your CSS knowledge. So before you start digging deep into CSS do yourself a favor
+and learn it. Don’t worry though, it’s really rather simple.</p>
+<h2 id="values" style="position:relative;">Values</h2>
+<p>There are 5 possible values of the position property:</p>
+<ul>
+<li><a href="#static">static</a></li>
+<li><a href="#relative">relative</a></li>
+<li><a href="#absolute">absolute</a></li>
+<li><a href="#fixed">fixed</a></li>
+<li><a href="#sticky">sticky</a></li>
+</ul>
+<p>These five position values change how the <strong>top</strong>, <strong>bottom</strong>, <strong>left</strong> and <strong>right</strong> properties affect the element.
+(With the exception of static which is not affected.)</p>
+<h2 id="static" style="position:relative;">static</h2>
+<p>This is the default position value, all elements have a position of static unless you have specified otherwise.</p>
+<p>Elements with <code class="language-text">position: static;</code> are not positioned in any special way and simply follows the normal flow of the webpage. Top, bottom, left and right will not affect elements with a position value of static.</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAAvklEQVQoz6WSywrCMBBF8/8/I+LCjaLW16JVLGihm9JqYhJ1kVcb+9QUQXCX2sswMMwc7l0MGB3x0EdDHw4OcHwiykJSSq11EsdgEeJZSKYBnARodVYvCzVNYzolBOzvlUtyj5YuLdYw+yysYIyB/yg98txRw+db1BHe4Ny5ZEuoHajnSdohtoGvqkI8R6KAvLipshv8Hez1A9d1O7b1B9zLuWfsNre9zL2hSC9n82FSCMGY4Ny+OGOpUnEUvQFUHvT+31zRIAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Position sticky"
+        title="Position sticky"
+        src="/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png"
+        srcset="/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/2519b/position_static.png 113w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/3684f/position_static.png 225w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png 450w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/23296/position_static.png 675w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/1cfc2/position_static.png 900w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png 1280w"
+        sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h2 id="relative" style="position:relative;">relative</h2>
+<p>Elements with relative positioning are positioned relative to their normal(static) position.
+Top, bottom, left and right moves the element away from this position.</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>This will adds 20 pixels to the top of the elements original position and
+50 pixels to left.</p>
+<p>This positions the element 20 pixels from the top and 50 pixels to the left of the elements original position.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7ElEQVQoz82SXUvDMBiF9/9/ijci4pUwBjL8Kq6uoKJjZFtrkra2+dybNm1qqrdOIrvxEM7Fm/NweEMmBVNlLRiXNRd5xRutOtCglVQHJaUEgA1Ck2EYyn33XNkV75PSvjLvbW06P3fDz3JuvKGEjPBTAaeP6Xm8vUiys2h1Er9vuP0K/QpjPMJvH2a+0/eZus1GnyKVijYUfinhGjcPhY1oGxfdbAehsF8uoXCVmjvS3OAmIu0l2m95cDNVdkEhyc0yN94jDBUEPNg37A5V/G+473v3F/m8p8hRzf6HSSEEY4Lz8MMZ00qh9foTdT3yMlCbW9cAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Position relative"
+        title="Position relative"
+        src="/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png"
+        srcset="/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/2519b/position_relative.png 113w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/3684f/position_relative.png 225w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png 450w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/23296/position_relative.png 675w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/1cfc2/position_relative.png 900w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png 1280w"
+        sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h2 id="absolute" style="position:relative;">absolute</h2>
+<p>The position of an element with <code class="language-text">position: absolute;</code> is based on its nearest <strong>positioned</strong> parent i.e. the nearest
+wrapping element with a position other than static.</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.container</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">bottom</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 15px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>This will position our element 10 pixels from the bottom and 15 pixels from the left of our <strong>positioned parent</strong>.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVQ4y62Ti07CMBSG9/6vY8J9XGVcNi4DAQFh3ra1IAhjAbex/baNhmAwIvonX3p6kn5p0lNpEZMxu0qBfnCok1jEMnhNZLFk+7Xeg7vbwnUcuJvNERvW2223eDAMSMuCAiuZxVwugqRzon6KZ2Cm8nirtbBvdBBUmwjv7vFTKCGQ3HoHq4oOp9YRrPlaaSFgMp+JPE5ZRTCaImKHojBEFEVHhKzHQywLUkE3Ee9RpBiJroXYDUG6+Qy/0oDHpQyvrAkhDxd8zWeP2DakUp9AHtrIjyjkgYX0Lav7VAj9S4TV0QLafA+N+GhQH9pLiOJgDu9i4XjJJHuo1IPGUJm8OFwchPU2PIUJx8Z5wnLXRslwcD1ZCXida5viITylIcReqYZgODlPuKx3YSk6SKUjsBnzqi5uJlB1Jm1i/2ieJ8Qvckp2UsjnKAyjI8S8iTU6OXvfziH+MTNKIfF/uF6t/gz/08Z0ind+idZzWAB+gAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Position absolute"
+        title="Position absolute"
+        src="/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png"
+        srcset="/web-like-spider/static/31d7085c401ffc86f24892829fecb509/2519b/position_absolute.png 113w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/3684f/position_absolute.png 225w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png 450w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/23296/position_absolute.png 675w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/1cfc2/position_absolute.png 900w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png 1280w"
+        sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><strong>Do note</strong> that absolute(and fixed) elements are removed from the normal document flow. Meaning it wont affect any other
+elements, they will behave as if there is no other element there. Our element may therefore end up on top of another.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABiklEQVQ4y62TD2vTQBiH8/0/Quc2JoI6EUXBwcbWubVJ22TdumFr96fZ1CaXRteuLR2X9vJ4dyBSqdipP3h4kxfycJDfOevVF2yUn7PhbrLubfLk/VOSdzv0t/a43drV6Pl2m7vGB8b3E8bDIePRaI6R3t1PJtyEIc5qFrA2dFkbeaxOKjyK9xhXA1RwytRvMDWzUkddXvOnJELgFPoVVuIyK8KlkHoUwiK9sq8lx0gtklWNeT/vkOuPcqXI83wOpXcmIopwHl9/4U1L8LoteNXq8rIVsV3/TGZlx2QaWQ6s0MQIfs2PnYhjnGc3XUpNwf55QrEZsfsxZr+ZkHlHVvZg4c5lj3qq8IUkSDL8r4qDVor8W2Htoq8lMy2TFj+dcdD+9lNYO0G6WngRLicsncUchkNKVwOLeS6edO2PkO6RFcvDKtP21XLC29oZkdtAeKeWWJNWGvZkFl0d6dWZfeouJ+QBWSRbKDQ9Uiqfw/bNznxh937bQ/5jekmCY+7h3WDwz5g7HXY6fAfxu9OYTNRGIQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Position absolute covering"
+        title="Position absolute covering"
+        src="/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png"
+        srcset="/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/2519b/position_absolute_covering.png 113w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/3684f/position_absolute_covering.png 225w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png 450w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/23296/position_absolute_covering.png 675w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/1cfc2/position_absolute_covering.png 900w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png 1280w"
+        sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>This unsuspecting element has been partially covered by our box.</p>
+<h2 id="fixed" style="position:relative;">fixed</h2>
+<p>Fixed elements are always positioned relative to the document i.e. the browser window. Which means they are are
+also not affected by scrolling.</p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>This positions the element 100 pixels from the left and 30 pixels from the top of the window, no matter how far down the page you scroll.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVQ4y62SXU+DMBSG9///xrydN3rDloU5v2J0bEumLjEqMjOREQQKFijw2mKQwcou1Dd5gIbTh0PbThiGIIQgkBAGuzRrSFEX4MNxMB6N0MGesBxIBahoS5bn0CaTb2HOByXihciTE+FU93Fh+DjTPZzrLoaPLuyQ/QjKOfyCNE0xn80qYZny+dai6N+b6C9WGC5NKPNnHN9ZMIO0VlfeKaUYKEq7cGlHuFxHuDZjTgLNSqAalAsTqdDzfRx0u/uFV28xtPcYN1w648KR8cmFTCoM+MYc9nq7wnINF/yXB3pYSFTOeEVx9ECwJvIOxRpONa29Qy9KYXgxVl5S8OoneHFjUJa1Cmu7vJ3muBlZA63C7S9nEpqdSYVZltXO4m9gjFXC/4jocyqEhJ8fz3X/hHDYmw1OVBVfwjfusAiKU/QAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Position fixed"
+        title="Position fixed"
+        src="/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png"
+        srcset="/web-like-spider/static/0015f036c1e3457bd176825506f1a426/2519b/position_fixed.png 113w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/3684f/position_fixed.png 225w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png 450w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/23296/position_fixed.png 675w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/1cfc2/position_fixed.png 900w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png 1280w"
+        sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Like with <code class="language-text">position: absolute;</code> fixed elements are removed from the document flow. See <a href="#absolute">absolute</a>.
+This makes fixed elements useful for popups and modals.</p>
+<h2 id="sticky" style="position:relative;">sticky</h2>
+<p><code class="language-text">position: sticky;</code> is a bit of a bonus and has limited albeit powerful use cases.
+A sticky element behaves as if it is relative-positioned until it reaches a specified point, where it starts
+behaving as if it’s fixed-positioned.</p>
+<p>Lets showcase this with an <strong>example:</strong></p>
+<div class="gatsby-highlight" data-language="css"><pre class="language-css"><code class="language-css"><span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> sticky<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>Try scrolling the window below and notice how the <code class="language-text">.box</code> element behaves.</p>
+<p><iframe src="https://codesandbox.io/api/v1/sandboxes/define?embed=1&parameters=N4IgZglgNgpgziAXKCA7AJjAHgOgBYAuAtlEqAMYD2qBMNSIAPAIQAiA8gMIAqAmgAoBRAASESAPgA6AJ0mpGYqMKgBDVAHMAvJJB0dU2fLwwV6A3OHDGRGARXDyeFdLi3tIAKrcAYgFoAHPoyFlY2dsKoKjbuAG4QMADuAA6U0gQ6DtS0NO4JEOgEeJqYceQwvnkFeAA0wmgQBBAqUL5w5M0wmgCMOAAMQYaWjFBoANbC0jBQ7nAEAJ6wcMa2GXiTYDPzizjkcHADIYyNBLDirJTkAK42NIwA9MenwfJ3xqbm8gBGlOhzH0N4ABM4gAyuRpJQoEobPcgf8rOgIDEHKo9u5vlgDqhLEM4Ek1OJyKi4OjKJimHc8QTnkM7oiYvDGElxAAZVIwIh1JJwa7CdCQ1LCOANYRRWy1KioVzkWgES7SUWIpIQNpodTCKYNWqudB8ygaiCXOBEH7CWhEFIKtDkfL5S40YSXAjKFTfSYa538qDs4REFTqSKikYAR0uKhwzw8zroEE5pl99U5MRjUVqoZVEUos2kl112Bg0htdka1EdUKiVBdbozqBVEEdzuaEHTSQ1WA19ioRBN_MyUpgoZUBBwwlYlwzKidMDqOcmzy9grQExgSUmxgwBZFS5ikMuSWL0-TI2je2nNqhvIX7pgl2EYEu6iaztQl3Lwnx0if8pHgiwZX3N4KsKDoXO0MDtM6VzKugQ5Ds8qClqulD5HQBDavazpLlcUD4sI6bCJQYCQDa9iYK4OYOiaUIimosZ1HmsxVqk1w4GykychA3KXgKQE0WEErUNKsryoqnEqjaGjPJqaFCjAuq9jAhrGqa5qWnUqA2oi6AYQ2THXp6PHTn6Ab2E2g4jlGGq1nGupEImwjJrWqZ4eOcCZtmuZtgWRZDhA1DPK-qhEJWqjVm5tbCrpZnjq22Adpk3Y_PqkquIOw6jq5opTjO8rTle6nLquMDrpgn6YdiO5QHuB4OdJGqng40BVUQ86GRqt73o-Q4RIF9gfl-0g_n-K60CJwHOqBKjgd1UH5LBz6IRCKE0OhDpYa-uH4YRxFNHy8AFjpVHHs8tEcQxzqhcxRBsRyXI8py-XCo2_F9kJtgiaYYmqhoGrHtqcl6gaRo9maHJqdatraQ6Tp6dOKyGFeRn-oG0XhsIlkxjZCbWbVTlEGmmUIR5eZYN5DS-aWvXBfql2fuFdZRSGMVtvFXY9slgkDmGw7PGOE7ZRAs55TxBWTEVJWbuVDm7vuQ6HnV8CuI1F4PW1N53g-T49W-_VDt-wi_v-o28SB5BgRBzyzTBxaZtiSHLTJPJrdi2GbeOBFERAJF7eRh2Qseoo4_k9UXa6V03RxXGq96vHPeKr3gcJsiGJ9yrfeq0n_fJ-qKcDKlg4uGmQzpMO03DBkx0jJlBs2YYWdGOPxnZOOOU0-MuTWWYEDm6BSaThbkyW2JUyFYd0xEDMw9FnEsyYCXswnaUjnzbmTrQOXuvlS5i2udClVuFUywezxHiKitnk13GV-1Gtdc-vXvs4A1DUbgFCmgE1m1NEEOHuc02whO2S1MArSFDpdaOF7BbU9iRec-0KLOiOjRIO509LXAxo3Wy9lW7OXTOFLuPcvID2LH5Ye5ZqZ6RrJPRsTMZ7YCkp2SgiVewpS5kOZemU17TkFrlPUMdRYrl3huMqBVKrVTlrVAO59lbNT4T6dWnUtYvh1k_PWg1niGxGm_caBEv7TUgn_a23VAHvmAahVaUtXZQPdttL2u0yIHUov7ZBdFg7wFDm6dBDc6JN0TCfFMRAcD3GZM8e43xfgfFhMQKA4gQAAF9qggFmAseAOw9hkBAJKbIBAGDhLmMIYANI7xZF8GAKI0A5iIGEAAQU_M0WoAAJKYyZGjtG1GoOArRNxgAANxFL9NIR8qAqldHYn0wY2NfDGAgOoQgIz_C9BiHgcZcg4nPGeK2QpEywAlOFAALxgPMpIWAVnYmUGgco0zZkEBGTgAArKctZhhng4AxAUoplRCgjIACx3OOacywVy5nCC6AAZl6P8opnwVDkFGOoCE9p0BVIAMTkE-DAfwYAACcALhBulKlU75xyhSQmDsiu5dyVCmHQLiqgMcUWgsZbinZNBSnlKgJU4QnBBKQhUHAXFKQnqkKqbML2ow5i4oIJQJIIyIUnOeE8uQLy3lUmxFskItAsAEF8E2AMVSyg0ALLigZQzfBSplSCuVuLER4lUJyz43pYXMt2RAA5VTARWoVeswwQJ3kTJNWgKpoL2LCF6I8548TEn4lhf6GAOAABWcBqAZKyahDJkQbAMEFQ0UhQoSHkDbFEJIsAQCJOTC4UhDAei9D6KWkAZFwScSHlmrMObSyzF8gW7ARaS2JL9GgBgaBMC4EUHWton59wIGQEkuwaQs3ODKEoId2B8DROEL4Xw0q6B1s-OOKA6B52FimHivdupl0juiZG-tK4950BtPAMgCTr0xFYDejcRcH3To_Iu3wu6MCwGkAwAAej0AAbDgLoV7RgwDmAkVI6Ap0AG0AC6cS0NxKAA&query=hidenavigation%3D1%26view%3Dpreview" class="embedded-codesandbox" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe></p>
+<p>The moment the box hits our set threshold of 10px from the top, it <strong>sticks</strong> to that point as we keep scrolling.
+It has gone from a <code class="language-text">position: relative;</code> behavior to <code class="language-text">position: fixed;</code>.</p></section><aside class="styles-module--container--294sc"><div class="styles-module--twitter--26QU_"><a href="https://twitter.com/intent/tweet?text=CSS Position quick guide: undefined @weblikespider" class="styles-module--button--2XS2M" target="_blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMjQgNC41NTdjLS44ODMuMzkyLTEuODMyLjY1Ni0yLjgyOC43NzUgMS4wMTctLjYwOSAxLjc5OC0xLjU3NCAyLjE2NS0yLjcyNC0uOTUxLjU2NC0yLjAwNS45NzQtMy4xMjcgMS4xOTUtLjg5Ny0uOTU3LTIuMTc4LTEuNTU1LTMuNTk0LTEuNTU1LTMuMTc5IDAtNS41MTUgMi45NjYtNC43OTcgNi4wNDUtNC4wOTEtLjIwNS03LjcxOS0yLjE2NS0xMC4xNDgtNS4xNDQtMS4yOSAyLjIxMy0uNjY5IDUuMTA4IDEuNTIzIDYuNTc0LS44MDYtLjAyNi0xLjU2Ni0uMjQ3LTIuMjI5LS42MTYtLjA1NCAyLjI4MSAxLjU4MSA0LjQxNSAzLjk0OSA0Ljg5LS42OTMuMTg4LTEuNDUyLjIzMi0yLjIyNC4wODQuNjI2IDEuOTU2IDIuNDQ0IDMuMzc5IDQuNiAzLjQxOS0yLjA3IDEuNjIzLTQuNjc4IDIuMzQ4LTcuMjkgMi4wNCAyLjE3OSAxLjM5NyA0Ljc2OCAyLjIxMiA3LjU0OCAyLjIxMiA5LjE0MiAwIDE0LjMwNy03LjcyMSAxMy45OTUtMTQuNjQ2Ljk2Mi0uNjk1IDEuNzk3LTEuNTYyIDIuNDU3LTIuNTQ5eiIvPjwvc3ZnPg==" alt="Tweet it"/>Tweet it</a></div></aside></div><footer class="styles-module--footer--3V8-j"><aside class="styles-module--container--1ZN-C"><div class="styles-module--twitter--17qAc"><a href="https://twitter.com/intent/tweet?text=CSS Position quick guide: undefined @weblikespider" class="styles-module--button--2XS2M" target="_blank" rel="noopener noreferrer"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMjQgNC41NTdjLS44ODMuMzkyLTEuODMyLjY1Ni0yLjgyOC43NzUgMS4wMTctLjYwOSAxLjc5OC0xLjU3NCAyLjE2NS0yLjcyNC0uOTUxLjU2NC0yLjAwNS45NzQtMy4xMjcgMS4xOTUtLjg5Ny0uOTU3LTIuMTc4LTEuNTU1LTMuNTk0LTEuNTU1LTMuMTc5IDAtNS41MTUgMi45NjYtNC43OTcgNi4wNDUtNC4wOTEtLjIwNS03LjcxOS0yLjE2NS0xMC4xNDgtNS4xNDQtMS4yOSAyLjIxMy0uNjY5IDUuMTA4IDEuNTIzIDYuNTc0LS44MDYtLjAyNi0xLjU2Ni0uMjQ3LTIuMjI5LS42MTYtLjA1NCAyLjI4MSAxLjU4MSA0LjQxNSAzLjk0OSA0Ljg5LS42OTMuMTg4LTEuNDUyLjIzMi0yLjIyNC4wODQuNjI2IDEuOTU2IDIuNDQ0IDMuMzc5IDQuNiAzLjQxOS0yLjA3IDEuNjIzLTQuNjc4IDIuMzQ4LTcuMjkgMi4wNCAyLjE3OSAxLjM5NyA0Ljc2OCAyLjIxMiA3LjU0OCAyLjIxMiA5LjE0MiAwIDE0LjMwNy03LjcyMSAxMy45OTUtMTQuNjQ2Ljk2Mi0uNjk1IDEuNzk3LTEuNTYyIDIuNDU3LTIuNTQ5eiIvPjwvc3ZnPg==" alt="Tweet it"/>Tweet it</a></div></aside></footer></article><section class="styles-module--container--1_ape"><div><a rel="prev" class="styles-module--link--BlOUi" href="/web-like-spider/new-beginnings/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjM2I3ZmZmIj48cGF0aCBkPSJNMTMuMDI1IDFsLTIuODQ3IDIuODI4IDYuMTc2IDYuMTc2aC0xNi4zNTR2My45OTJoMTYuMzU0bC02LjE3NiA2LjE3NiAyLjg0NyAyLjgyOCAxMC45NzUtMTF6Ii8+PC9zdmc+" alt="arrow" class="styles-module--arrow-left--3NB4R"/> <!-- -->New Beginnings</a></div><div></div></section></div></main><footer class="styles-module--footer--1wCyQ"><ul class="styles-module--links--3BILn"><li><a href="https://twitter.com/weblikespider">Twitter</a></li><li><a href="mailto:jonas@weblikespider.com">Email</a></li><li><a href="https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/">LinkedIn</a></li><li><a href="https://github.com/Feekar/">GitHub</a></li></ul></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-166969088-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/css-position/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-8bca35c88d36a094854f.js"],"component---src-pages-404-jsx":["/component---src-pages-404-jsx-2b2f874c524df2512273.js"],"component---src-pages-contact-jsx":["/component---src-pages-contact-jsx-455503e1892014ad3afd.js"],"component---src-pages-index-jsx":["/component---src-pages-index-jsx-330a459027a2dd64d247.js"],"component---src-templates-blog-post-jsx":["/component---src-templates-blog-post-jsx-60c93ee60029b1e8dffb.js"]};/*]]>*/</script><script src="/web-like-spider/webpack-runtime-732e0ced493e7dd8f234.js" async=""></script><script src="/web-like-spider/framework-a74044b4add31353c05b.js" async=""></script><script src="/web-like-spider/styles-6b8affa5cc22cb60670e.js" async=""></script><script src="/web-like-spider/6d49c2edeebbda98054eb4771ac1e0d5c3d19c21-c8173f014f81bcc30f86.js" async=""></script><script src="/web-like-spider/component---src-templates-blog-post-jsx-60c93ee60029b1e8dffb.js" async=""></script><script src="/web-like-spider/app-8bca35c88d36a094854f.js" async=""></script></body></html>

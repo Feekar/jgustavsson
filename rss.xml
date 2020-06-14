@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Web Like Spider]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/like-a-spider</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jun 2020 12:41:38 GMT</lastBuildDate><item><title><![CDATA[CSS Position quick guide]]></title><description><![CDATA[The CSS position property is one of the fundamental properties you need to know in order to feel
+truly comfortable in your CSS knowledge. So…]]></description><link>https://github.com/feekar/like-a-spider/css-position/</link><guid isPermaLink="false">https://github.com/feekar/like-a-spider/css-position/</guid><pubDate>Tue, 02 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;The CSS position property is one of the fundamental properties you need to know in order to feel
+truly comfortable in your CSS knowledge. So before you start digging deep into CSS do yourself a favor
+and learn it. Don’t worry though, it’s really rather simple.&lt;/p&gt;
+&lt;h2 id=&quot;values&quot; style=&quot;position:relative;&quot;&gt;Values&lt;/h2&gt;
+&lt;p&gt;There are 5 possible values of the position property:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#static&quot;&gt;static&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#relative&quot;&gt;relative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#absolute&quot;&gt;absolute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#fixed&quot;&gt;fixed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sticky&quot;&gt;sticky&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These five position values change how the &lt;strong&gt;top&lt;/strong&gt;, &lt;strong&gt;bottom&lt;/strong&gt;, &lt;strong&gt;left&lt;/strong&gt; and &lt;strong&gt;right&lt;/strong&gt; properties affect the element.
+(With the exception of static which is not affected.)&lt;/p&gt;
+&lt;h2 id=&quot;static&quot; style=&quot;position:relative;&quot;&gt;static&lt;/h2&gt;
+&lt;p&gt;This is the default position value, all elements have a position of static unless you have specified otherwise.&lt;/p&gt;
+&lt;p&gt;Elements with &lt;code class=&quot;language-text&quot;&gt;position: static;&lt;/code&gt; are not positioned in any special way and simply follows the normal flow of the webpage. Top, bottom, left and right will not affect elements with a position value of static.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; static&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAAvklEQVQoz6WSywrCMBBF8/8/I+LCjaLW16JVLGihm9JqYhJ1kVcb+9QUQXCX2sswMMwc7l0MGB3x0EdDHw4OcHwiykJSSq11EsdgEeJZSKYBnARodVYvCzVNYzolBOzvlUtyj5YuLdYw+yysYIyB/yg98txRw+db1BHe4Ny5ZEuoHajnSdohtoGvqkI8R6KAvLipshv8Hez1A9d1O7b1B9zLuWfsNre9zL2hSC9n82FSCMGY4Ny+OGOpUnEUvQFUHvT+31zRIAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Position sticky&quot;
+        title=&quot;Position sticky&quot;
+        src=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png&quot;
+        srcset=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/2519b/position_static.png 113w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/3684f/position_static.png 225w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png 450w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/23296/position_static.png 675w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/1cfc2/position_static.png 900w,
+/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;relative&quot; style=&quot;position:relative;&quot;&gt;relative&lt;/h2&gt;
+&lt;p&gt;Elements with relative positioning are positioned relative to their normal(static) position.
+Top, bottom, left and right moves the element away from this position.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 50px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will adds 20 pixels to the top of the elements original position and
+50 pixels to left.&lt;/p&gt;
+&lt;p&gt;This positions the element 20 pixels from the top and 50 pixels to the left of the elements original position.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAA7ElEQVQoz82SXUvDMBiF9/9/ijci4pUwBjL8Kq6uoKJjZFtrkra2+dybNm1qqrdOIrvxEM7Fm/NweEMmBVNlLRiXNRd5xRutOtCglVQHJaUEgA1Ck2EYyn33XNkV75PSvjLvbW06P3fDz3JuvKGEjPBTAaeP6Xm8vUiys2h1Er9vuP0K/QpjPMJvH2a+0/eZus1GnyKVijYUfinhGjcPhY1oGxfdbAehsF8uoXCVmjvS3OAmIu0l2m95cDNVdkEhyc0yN94jDBUEPNg37A5V/G+473v3F/m8p8hRzf6HSSEEY4Lz8MMZ00qh9foTdT3yMlCbW9cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Position relative&quot;
+        title=&quot;Position relative&quot;
+        src=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png&quot;
+        srcset=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/2519b/position_relative.png 113w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/3684f/position_relative.png 225w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png 450w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/23296/position_relative.png 675w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/1cfc2/position_relative.png 900w,
+/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;absolute&quot; style=&quot;position:relative;&quot;&gt;absolute&lt;/h2&gt;
+&lt;p&gt;The position of an element with &lt;code class=&quot;language-text&quot;&gt;position: absolute;&lt;/code&gt; is based on its nearest &lt;strong&gt;positioned&lt;/strong&gt; parent i.e. the nearest
+wrapping element with a position other than static.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; absolute&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;bottom&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 15px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will position our element 10 pixels from the bottom and 15 pixels from the left of our &lt;strong&gt;positioned parent&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABaUlEQVQ4y62Ti07CMBSG9/6vY8J9XGVcNi4DAQFh3ra1IAhjAbex/baNhmAwIvonX3p6kn5p0lNpEZMxu0qBfnCok1jEMnhNZLFk+7Xeg7vbwnUcuJvNERvW2223eDAMSMuCAiuZxVwugqRzon6KZ2Cm8nirtbBvdBBUmwjv7vFTKCGQ3HoHq4oOp9YRrPlaaSFgMp+JPE5ZRTCaImKHojBEFEVHhKzHQywLUkE3Ee9RpBiJroXYDUG6+Qy/0oDHpQyvrAkhDxd8zWeP2DakUp9AHtrIjyjkgYX0Lav7VAj9S4TV0QLafA+N+GhQH9pLiOJgDu9i4XjJJHuo1IPGUJm8OFwchPU2PIUJx8Z5wnLXRslwcD1ZCXida5viITylIcReqYZgODlPuKx3YSk6SKUjsBnzqi5uJlB1Jm1i/2ieJ8Qvckp2UsjnKAyjI8S8iTU6OXvfziH+MTNKIfF/uF6t/gz/08Z0ind+idZzWAB+gAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Position absolute&quot;
+        title=&quot;Position absolute&quot;
+        src=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png&quot;
+        srcset=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/2519b/position_absolute.png 113w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/3684f/position_absolute.png 225w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png 450w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/23296/position_absolute.png 675w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/1cfc2/position_absolute.png 900w,
+/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do note&lt;/strong&gt; that absolute(and fixed) elements are removed from the normal document flow. Meaning it wont affect any other
+elements, they will behave as if there is no other element there. Our element may therefore end up on top of another.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABiklEQVQ4y62TD2vTQBiH8/0/Quc2JoI6EUXBwcbWubVJ22TdumFr96fZ1CaXRteuLR2X9vJ4dyBSqdipP3h4kxfycJDfOevVF2yUn7PhbrLubfLk/VOSdzv0t/a43drV6Pl2m7vGB8b3E8bDIePRaI6R3t1PJtyEIc5qFrA2dFkbeaxOKjyK9xhXA1RwytRvMDWzUkddXvOnJELgFPoVVuIyK8KlkHoUwiK9sq8lx0gtklWNeT/vkOuPcqXI83wOpXcmIopwHl9/4U1L8LoteNXq8rIVsV3/TGZlx2QaWQ6s0MQIfs2PnYhjnGc3XUpNwf55QrEZsfsxZr+ZkHlHVvZg4c5lj3qq8IUkSDL8r4qDVor8W2Htoq8lMy2TFj+dcdD+9lNYO0G6WngRLicsncUchkNKVwOLeS6edO2PkO6RFcvDKtP21XLC29oZkdtAeKeWWJNWGvZkFl0d6dWZfeouJ+QBWSRbKDQ9Uiqfw/bNznxh937bQ/5jekmCY+7h3WDwz5g7HXY6fAfxu9OYTNRGIQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Position absolute covering&quot;
+        title=&quot;Position absolute covering&quot;
+        src=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png&quot;
+        srcset=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/2519b/position_absolute_covering.png 113w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/3684f/position_absolute_covering.png 225w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png 450w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/23296/position_absolute_covering.png 675w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/1cfc2/position_absolute_covering.png 900w,
+/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This unsuspecting element has been partially covered by our box.&lt;/p&gt;
+&lt;h2 id=&quot;fixed&quot; style=&quot;position:relative;&quot;&gt;fixed&lt;/h2&gt;
+&lt;p&gt;Fixed elements are always positioned relative to the document i.e. the browser window. Which means they are are
+also not affected by scrolling.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; fixed&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 30px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This positions the element 100 pixels from the left and 30 pixels from the top of the window, no matter how far down the page you scroll.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVQ4y62SXU+DMBSG9///xrydN3rDloU5v2J0bEumLjEqMjOREQQKFijw2mKQwcou1Dd5gIbTh0PbThiGIIQgkBAGuzRrSFEX4MNxMB6N0MGesBxIBahoS5bn0CaTb2HOByXihciTE+FU93Fh+DjTPZzrLoaPLuyQ/QjKOfyCNE0xn80qYZny+dai6N+b6C9WGC5NKPNnHN9ZMIO0VlfeKaUYKEq7cGlHuFxHuDZjTgLNSqAalAsTqdDzfRx0u/uFV28xtPcYN1w648KR8cmFTCoM+MYc9nq7wnINF/yXB3pYSFTOeEVx9ECwJvIOxRpONa29Qy9KYXgxVl5S8OoneHFjUJa1Cmu7vJ3muBlZA63C7S9nEpqdSYVZltXO4m9gjFXC/4jocyqEhJ8fz3X/hHDYmw1OVBVfwjfusAiKU/QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Position fixed&quot;
+        title=&quot;Position fixed&quot;
+        src=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png&quot;
+        srcset=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/2519b/position_fixed.png 113w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/3684f/position_fixed.png 225w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png 450w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/23296/position_fixed.png 675w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/1cfc2/position_fixed.png 900w,
+/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Like with &lt;code class=&quot;language-text&quot;&gt;position: absolute;&lt;/code&gt; fixed elements are removed from the document flow. See &lt;a href=&quot;#absolute&quot;&gt;absolute&lt;/a&gt;.
+This makes fixed elements useful for popups and modals.&lt;/p&gt;
+&lt;h2 id=&quot;sticky&quot; style=&quot;position:relative;&quot;&gt;sticky&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;position: sticky;&lt;/code&gt; is a bit of a bonus and has limited albeit powerful use cases.
+A sticky element behaves as if it is relative-positioned until it reaches a specified point, where it starts
+behaving as if it’s fixed-positioned.&lt;/p&gt;
+&lt;p&gt;Lets showcase this with an &lt;strong&gt;example:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; sticky&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 10px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Try scrolling the window below and notice how the &lt;code class=&quot;language-text&quot;&gt;.box&lt;/code&gt; element behaves.&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://codesandbox.io/api/v1/sandboxes/define?embed=1&amp;parameters=N4IgZglgNgpgziAXKCA7AJjAHgOgBYAuAtlEqAMYD2qBMNSIAPAIQAiA8gMIAqAmgAoBRAASESAPgA6AJ0mpGYqMKgBDVAHMAvJJB0dU2fLwwV6A3OHDGRGARXDyeFdLi3tIAKrcAYgFoAHPoyFlY2dsKoKjbuAG4QMADuAA6U0gQ6DtS0NO4JEOgEeJqYceQwvnkFeAA0wmgQBBAqUL5w5M0wmgCMOAAMQYaWjFBoANbC0jBQ7nAEAJ6wcMa2GXiTYDPzizjkcHADIYyNBLDirJTkAK42NIwA9MenwfJ3xqbm8gBGlOhzH0N4ABM4gAyuRpJQoEobPcgf8rOgIDEHKo9u5vlgDqhLEM4Ek1OJyKi4OjKJimHc8QTnkM7oiYvDGElxAAZVIwIh1JJwa7CdCQ1LCOANYRRWy1KioVzkWgES7SUWIpIQNpodTCKYNWqudB8ygaiCXOBEH7CWhEFIKtDkfL5S40YSXAjKFTfSYa538qDs4REFTqSKikYAR0uKhwzw8zroEE5pl99U5MRjUVqoZVEUos2kl112Bg0htdka1EdUKiVBdbozqBVEEdzuaEHTSQ1WA19ioRBN_MyUpgoZUBBwwlYlwzKidMDqOcmzy9grQExgSUmxgwBZFS5ikMuSWL0-TI2je2nNqhvIX7pgl2EYEu6iaztQl3Lwnx0if8pHgiwZX3N4KsKDoXO0MDtM6VzKugQ5Ds8qClqulD5HQBDavazpLlcUD4sI6bCJQYCQDa9iYK4OYOiaUIimosZ1HmsxVqk1w4GykychA3KXgKQE0WEErUNKsryoqnEqjaGjPJqaFCjAuq9jAhrGqa5qWnUqA2oi6AYQ2THXp6PHTn6Ab2E2g4jlGGq1nGupEImwjJrWqZ4eOcCZtmuZtgWRZDhA1DPK-qhEJWqjVm5tbCrpZnjq22Adpk3Y_PqkquIOw6jq5opTjO8rTle6nLquMDrpgn6YdiO5QHuB4OdJGqng40BVUQ86GRqt73o-Q4RIF9gfl-0g_n-K60CJwHOqBKjgd1UH5LBz6IRCKE0OhDpYa-uH4YRxFNHy8AFjpVHHs8tEcQxzqhcxRBsRyXI8py-XCo2_F9kJtgiaYYmqhoGrHtqcl6gaRo9maHJqdatraQ6Tp6dOKyGFeRn-oG0XhsIlkxjZCbWbVTlEGmmUIR5eZYN5DS-aWvXBfql2fuFdZRSGMVtvFXY9slgkDmGw7PGOE7ZRAs55TxBWTEVJWbuVDm7vuQ6HnV8CuI1F4PW1N53g-T49W-_VDt-wi_v-o28SB5BgRBzyzTBxaZtiSHLTJPJrdi2GbeOBFERAJF7eRh2Qseoo4_k9UXa6V03RxXGq96vHPeKr3gcJsiGJ9yrfeq0n_fJ-qKcDKlg4uGmQzpMO03DBkx0jJlBs2YYWdGOPxnZOOOU0-MuTWWYEDm6BSaThbkyW2JUyFYd0xEDMw9FnEsyYCXswnaUjnzbmTrQOXuvlS5i2udClVuFUywezxHiKitnk13GV-1Gtdc-vXvs4A1DUbgFCmgE1m1NEEOHuc02whO2S1MArSFDpdaOF7BbU9iRec-0KLOiOjRIO509LXAxo3Wy9lW7OXTOFLuPcvID2LH5Ye5ZqZ6RrJPRsTMZ7YCkp2SgiVewpS5kOZemU17TkFrlPUMdRYrl3huMqBVKrVTlrVAO59lbNT4T6dWnUtYvh1k_PWg1niGxGm_caBEv7TUgn_a23VAHvmAahVaUtXZQPdttL2u0yIHUov7ZBdFg7wFDm6dBDc6JN0TCfFMRAcD3GZM8e43xfgfFhMQKA4gQAAF9qggFmAseAOw9hkBAJKbIBAGDhLmMIYANI7xZF8GAKI0A5iIGEAAQU_M0WoAAJKYyZGjtG1GoOArRNxgAANxFL9NIR8qAqldHYn0wY2NfDGAgOoQgIz_C9BiHgcZcg4nPGeK2QpEywAlOFAALxgPMpIWAVnYmUGgco0zZkEBGTgAArKctZhhng4AxAUoplRCgjIACx3OOacywVy5nCC6AAZl6P8opnwVDkFGOoCE9p0BVIAMTkE-DAfwYAACcALhBulKlU75xyhSQmDsiu5dyVCmHQLiqgMcUWgsZbinZNBSnlKgJU4QnBBKQhUHAXFKQnqkKqbML2ow5i4oIJQJIIyIUnOeE8uQLy3lUmxFskItAsAEF8E2AMVSyg0ALLigZQzfBSplSCuVuLER4lUJyz43pYXMt2RAA5VTARWoVeswwQJ3kTJNWgKpoL2LCF6I8548TEn4lhf6GAOAABWcBqAZKyahDJkQbAMEFQ0UhQoSHkDbFEJIsAQCJOTC4UhDAei9D6KWkAZFwScSHlmrMObSyzF8gW7ARaS2JL9GgBgaBMC4EUHWton59wIGQEkuwaQs3ODKEoId2B8DROEL4Xw0q6B1s-OOKA6B52FimHivdupl0juiZG-tK4950BtPAMgCTr0xFYDejcRcH3To_Iu3wu6MCwGkAwAAej0AAbDgLoV7RgwDmAkVI6Ap0AG0AC6cS0NxKAA&amp;query=hidenavigation%3D1%26view%3Dpreview&quot; class=&quot;embedded-codesandbox&quot; sandbox=&quot;allow-modals allow-forms allow-popups allow-scripts allow-same-origin&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;The moment the box hits our set threshold of 10px from the top, it &lt;strong&gt;sticks&lt;/strong&gt; to that point as we keep scrolling.
+It has gone from a &lt;code class=&quot;language-text&quot;&gt;position: relative;&lt;/code&gt; behavior to &lt;code class=&quot;language-text&quot;&gt;position: fixed;&lt;/code&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://github.com/feekar/like-a-spider/new-beginnings/</link><guid isPermaLink="false">https://github.com/feekar/like-a-spider/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2 id=&quot;on-deer-horse-aboard-tritely-yikes-and-much&quot; style=&quot;position:relative;&quot;&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3 id=&quot;overlaid-the-jeepers-uselessly-much-excluding&quot; style=&quot;position:relative;&quot;&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3 id=&quot;according-a-funnily-until-pre-set-or-arrogant-well-cheerful&quot; style=&quot;position:relative;&quot;&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4 id=&quot;silent-delightfully-including-because-before-one-up-barring-chameleon&quot; style=&quot;position:relative;&quot;&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5 id=&quot;wherever-far-wow-thus-a-squirrel-raccoon-jeez-jaguar-this-from-along&quot; style=&quot;position:relative;&quot;&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6 id=&quot;slapped-cozy-a-that-lightheartedly-and-far&quot; style=&quot;position:relative;&quot;&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://github.com/feekar/like-a-spider/my-second-post/</link><guid isPermaLink="false">https://github.com/feekar/like-a-spider/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://github.com/feekar/like-a-spider/hello-world/</link><guid isPermaLink="false">https://github.com/feekar/like-a-spider/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.2212389380531%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/20e5d/salty_egg.jpg&quot;
+        srcset=&quot;/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/30b1b/salty_egg.jpg 113w,
+/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/863e1/salty_egg.jpg 225w,
+/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/20e5d/salty_egg.jpg 450w,
+/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/512c0/salty_egg.jpg 675w,
+/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/8e1fc/salty_egg.jpg 900w,
+/web-like-spider/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

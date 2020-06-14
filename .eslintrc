@@ -1,8 +1,0 @@
-{
-  "extends": ["airbnb", "prettier"],
-  "rules": {
-    "linebreak-style": ["error", "windows"],
-    "react/prop-types": 0,
-    "react/jsx-one-expression-per-line": "off"
-  }
-}
