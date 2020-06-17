@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Web Like Spider]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/like-a-spider</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Jun 2020 13:14:22 GMT</lastBuildDate><item><title><![CDATA[CSS Position quick guide]]></title><description><![CDATA[The CSS position property is one of the fundamental properties you need to know in order to feel
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Web Like Spider]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/like-a-spider</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Jun 2020 13:38:31 GMT</lastBuildDate><item><title><![CDATA[CSS Position quick guide]]></title><description><![CDATA[The CSS position property is one of the fundamental properties you need to know in order to feel
 truly comfortable in your CSS knowledge. So…]]></description><link>https://github.com/feekar/like-a-spider/css-position/</link><guid isPermaLink="false">https://github.com/feekar/like-a-spider/css-position/</guid><pubDate>Sun, 14 Jun 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;The CSS position property is one of the fundamental properties you need to know in order to feel
 truly comfortable in your CSS knowledge. So before you start digging deep into CSS do yourself a favor
 and learn it. Don’t worry though, it’s really rather simple.&lt;/p&gt;
@@ -25,7 +25,7 @@ and learn it. Don’t worry though, it’s really rather simple.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png&quot;
+    href=&quot;/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -38,13 +38,13 @@ and learn it. Don’t worry though, it’s really rather simple.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Position sticky&quot;
         title=&quot;Position sticky&quot;
-        src=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png&quot;
-        srcset=&quot;/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/2519b/position_static.png 113w,
-/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/3684f/position_static.png 225w,
-/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png 450w,
-/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/23296/position_static.png 675w,
-/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/1cfc2/position_static.png 900w,
-/web-like-spider/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png 1280w&quot;
+        src=&quot;/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png&quot;
+        srcset=&quot;/static/18a3dda8bd8580eca1dfc587f74fd15d/2519b/position_static.png 113w,
+/static/18a3dda8bd8580eca1dfc587f74fd15d/3684f/position_static.png 225w,
+/static/18a3dda8bd8580eca1dfc587f74fd15d/fc2a6/position_static.png 450w,
+/static/18a3dda8bd8580eca1dfc587f74fd15d/23296/position_static.png 675w,
+/static/18a3dda8bd8580eca1dfc587f74fd15d/1cfc2/position_static.png 900w,
+/static/18a3dda8bd8580eca1dfc587f74fd15d/21b4d/position_static.png 1280w&quot;
         sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -68,7 +68,7 @@ Top, bottom, left and right moves the element away from this position.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png&quot;
+    href=&quot;/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -81,13 +81,13 @@ Top, bottom, left and right moves the element away from this position.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Position relative&quot;
         title=&quot;Position relative&quot;
-        src=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png&quot;
-        srcset=&quot;/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/2519b/position_relative.png 113w,
-/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/3684f/position_relative.png 225w,
-/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png 450w,
-/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/23296/position_relative.png 675w,
-/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/1cfc2/position_relative.png 900w,
-/web-like-spider/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png 1280w&quot;
+        src=&quot;/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png&quot;
+        srcset=&quot;/static/70390a27bf351bb67bc03729d55dcd6a/2519b/position_relative.png 113w,
+/static/70390a27bf351bb67bc03729d55dcd6a/3684f/position_relative.png 225w,
+/static/70390a27bf351bb67bc03729d55dcd6a/fc2a6/position_relative.png 450w,
+/static/70390a27bf351bb67bc03729d55dcd6a/23296/position_relative.png 675w,
+/static/70390a27bf351bb67bc03729d55dcd6a/1cfc2/position_relative.png 900w,
+/static/70390a27bf351bb67bc03729d55dcd6a/21b4d/position_relative.png 1280w&quot;
         sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -113,7 +113,7 @@ wrapping element with a position other than static.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png&quot;
+    href=&quot;/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -126,13 +126,13 @@ wrapping element with a position other than static.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Position absolute&quot;
         title=&quot;Position absolute&quot;
-        src=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png&quot;
-        srcset=&quot;/web-like-spider/static/31d7085c401ffc86f24892829fecb509/2519b/position_absolute.png 113w,
-/web-like-spider/static/31d7085c401ffc86f24892829fecb509/3684f/position_absolute.png 225w,
-/web-like-spider/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png 450w,
-/web-like-spider/static/31d7085c401ffc86f24892829fecb509/23296/position_absolute.png 675w,
-/web-like-spider/static/31d7085c401ffc86f24892829fecb509/1cfc2/position_absolute.png 900w,
-/web-like-spider/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png 1280w&quot;
+        src=&quot;/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png&quot;
+        srcset=&quot;/static/31d7085c401ffc86f24892829fecb509/2519b/position_absolute.png 113w,
+/static/31d7085c401ffc86f24892829fecb509/3684f/position_absolute.png 225w,
+/static/31d7085c401ffc86f24892829fecb509/fc2a6/position_absolute.png 450w,
+/static/31d7085c401ffc86f24892829fecb509/23296/position_absolute.png 675w,
+/static/31d7085c401ffc86f24892829fecb509/1cfc2/position_absolute.png 900w,
+/static/31d7085c401ffc86f24892829fecb509/21b4d/position_absolute.png 1280w&quot;
         sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -147,7 +147,7 @@ elements, they will behave as if there is no other element there. Our element ma
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png&quot;
+    href=&quot;/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -160,13 +160,13 @@ elements, they will behave as if there is no other element there. Our element ma
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Position absolute covering&quot;
         title=&quot;Position absolute covering&quot;
-        src=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png&quot;
-        srcset=&quot;/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/2519b/position_absolute_covering.png 113w,
-/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/3684f/position_absolute_covering.png 225w,
-/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png 450w,
-/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/23296/position_absolute_covering.png 675w,
-/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/1cfc2/position_absolute_covering.png 900w,
-/web-like-spider/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png 1280w&quot;
+        src=&quot;/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png&quot;
+        srcset=&quot;/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/2519b/position_absolute_covering.png 113w,
+/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/3684f/position_absolute_covering.png 225w,
+/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/fc2a6/position_absolute_covering.png 450w,
+/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/23296/position_absolute_covering.png 675w,
+/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/1cfc2/position_absolute_covering.png 900w,
+/static/7c98ccd8762e6cf81e35d1ff38e9a1b0/21b4d/position_absolute_covering.png 1280w&quot;
         sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -189,7 +189,7 @@ also not affected by scrolling.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png&quot;
+    href=&quot;/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -202,13 +202,13 @@ also not affected by scrolling.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Position fixed&quot;
         title=&quot;Position fixed&quot;
-        src=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png&quot;
-        srcset=&quot;/web-like-spider/static/0015f036c1e3457bd176825506f1a426/2519b/position_fixed.png 113w,
-/web-like-spider/static/0015f036c1e3457bd176825506f1a426/3684f/position_fixed.png 225w,
-/web-like-spider/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png 450w,
-/web-like-spider/static/0015f036c1e3457bd176825506f1a426/23296/position_fixed.png 675w,
-/web-like-spider/static/0015f036c1e3457bd176825506f1a426/1cfc2/position_fixed.png 900w,
-/web-like-spider/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png 1280w&quot;
+        src=&quot;/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png&quot;
+        srcset=&quot;/static/0015f036c1e3457bd176825506f1a426/2519b/position_fixed.png 113w,
+/static/0015f036c1e3457bd176825506f1a426/3684f/position_fixed.png 225w,
+/static/0015f036c1e3457bd176825506f1a426/fc2a6/position_fixed.png 450w,
+/static/0015f036c1e3457bd176825506f1a426/23296/position_fixed.png 675w,
+/static/0015f036c1e3457bd176825506f1a426/1cfc2/position_fixed.png 900w,
+/static/0015f036c1e3457bd176825506f1a426/21b4d/position_fixed.png 1280w&quot;
         sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
