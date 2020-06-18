@@ -106,7 +106,7 @@ module.exports = {
         short_name: "WLS",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#663399",
+        theme_color: "#548fff",
         display: "minimal-ui",
         icon: "content/assets/favicon.ico",
       },
