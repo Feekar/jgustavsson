@@ -25,6 +25,13 @@
       }
     }
 
+    @media only screen and (max-width: 460px) {
+      li {
+        margin-right: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+
     a {
       text-decoration: underline;
       font-weight: 500;

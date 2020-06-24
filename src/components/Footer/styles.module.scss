@@ -8,6 +8,8 @@
 .links {
   display: flex;
   justify-content: center;
+  padding: 0;
+
   li {
     list-style: none;
     display: flex;
@@ -23,6 +25,14 @@
 
     a {
       color: #333;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    font-size: 0.9rem;
+
+    li {
+      margin-right: 1rem;
     }
   }
 }
