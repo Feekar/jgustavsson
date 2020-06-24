@@ -16,9 +16,14 @@ const ScrollProgressIndicator = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", throttle(handleScroll, 100), {
-      passive: true,
-    });
+    window.addEventListener(
+      "scroll",
+      throttle(handleScroll, 100),
+      {
+        passive: true,
+      },
+      { passive: true }
+    );
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
