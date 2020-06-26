@@ -108,7 +108,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#548fff",
         display: "minimal-ui",
-        icon: "content/assets/favicon.ico",
+        icon: "content/assets/favicon.png",
       },
     },
     "gatsby-plugin-react-helmet",
