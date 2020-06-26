@@ -6,9 +6,14 @@ import SEO from "../components/seo";
 import Posts from "../components/Posts";
 
 const StartPage = ({ data }) => {
+  // eslint-disable-next-line no-debugger
+  debugger;
   return (
     <Layout>
-      <SEO title="Web Development Blog" />
+      <SEO
+        title="Web Development Blog"
+        description={data.site.siteMetadata.description}
+      />
       <Posts posts={data.allMarkdownRemark.edges} />
     </Layout>
   );
@@ -21,6 +26,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
