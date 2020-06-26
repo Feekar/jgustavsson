@@ -1,6 +1,6 @@
 ---
 title: CSS Position quick guide
-date: "2020-06-14T22:12:03.284Z"
+date: "2020-06-25T22:12:03.284Z"
 description: "The CSS Position property defines how elements are positioned on the page given certain values. 
 Knowing how position works is essential to truly master CSS.
 "
