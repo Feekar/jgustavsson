@@ -1,7 +1,7 @@
 const throttle = (func, limit, ...rest) => {
   let lastFunc;
   let lastRan;
-  return function () {
+  return function innerThrottle() {
     const context = this;
     const args = rest;
     if (!lastRan) {
