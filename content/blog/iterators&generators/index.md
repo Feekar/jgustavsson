@@ -1,5 +1,5 @@
 ---
-title: Javascript - understanding generators & iterators
+title: Javascript understanding Generators & Iterators
 date: "2020-07-24T09:53:02.284Z"
 description: "Pulling data from a data source one item at a time allows us to iterate over an infinite data structure.
 A generator function can stop midway through and continue from where it stopped."
