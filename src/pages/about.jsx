@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
@@ -8,7 +9,7 @@ import linkIcon from "../../content/assets/external-link.svg";
 
 import styles from "./styles.module.scss";
 
-const Contact = props => {
+const About = props => {
   const {
     data: {
       site: {
@@ -16,22 +17,33 @@ const Contact = props => {
           social: { twitter, linkedIn, github, email },
         },
       },
+      file: {
+        childImageSharp: { fluid },
+      },
     },
   } = props;
 
   return (
     <Layout>
-      <SEO title="Contact" />
-      <div className={styles.contact}>
+      <SEO title="About" />
+      <div className={styles.about}>
+        <div>
+          <Img
+            className={styles.profile}
+            fluid={fluid}
+            alt="Jonas Gustavsson"
+          />
+          <h1 className={styles.name}>Jonas Gustavsson</h1>
+        </div>
         <div>
           <h2 className={styles.title}>Why</h2>
           <span>am I doing this?</span>
         </div>
         <p>
-          The reason I&rsquo;m doing this is not so much about spreading my
-          unbelievably vast knowledge as it is about me learning by teaching. To
-          explain a topic well I have to really push myself to dig deep and
-          understand it.
+          The reason I&rsquo;m doing this is not so much about spreading
+          knowledge (though a nice bonus to be sure) as it is about me learning
+          by teaching. To explain a topic well I have to really push myself to
+          dig deep and understand it.
         </p>
         <br />
         <p>
@@ -65,10 +77,17 @@ const Contact = props => {
   );
 };
 
-export default Contact;
+export default About;
 
 export const query = graphql`
   query {
+    file(relativePath: { eq: "me.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     site {
       siteMetadata {
         social {

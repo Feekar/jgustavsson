@@ -6,8 +6,6 @@ import SEO from "../components/seo";
 import Posts from "../components/Posts";
 
 const StartPage = ({ data }) => {
-  // eslint-disable-next-line no-debugger
-  debugger;
   return (
     <Layout>
       <SEO
