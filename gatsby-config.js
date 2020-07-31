@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "Web Like Spider",
+    title: "Jonas Gustavsson",
     author: {
       name: "Jonas Gustavsson",
       summary: "I blog about web development.",
     },
     description:
       "Articles about all things web development. Javascript, CSS, HTML, React.js and more.",
-    siteUrl: "https://github.com/feekar/like-a-spider",
+    siteUrl: "https://github.com/feekar/jgustavsson",
     social: {
       twitter: "https://twitter.com/weblikespider",
       linkedIn: "https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/",
       github: "https://github.com/Feekar/",
-      email: "mailto:jonas@weblikespider.com",
+      email: "mailto:contact@jgustavsson.com",
     },
   },
   plugins: [
@@ -103,7 +103,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "WebLikeSpider",
+        name: "JGustavsson",
         short_name: "WLS",
         start_url: "/",
         background_color: "#ffffff",
