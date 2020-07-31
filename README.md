@@ -1,1 +1,1 @@
-Work in progress blog and thoughts dumpster
+My personal portfolio website and blog
