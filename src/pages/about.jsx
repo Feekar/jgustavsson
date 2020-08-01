@@ -36,14 +36,18 @@ const About = props => {
           <h1 className={styles.name}>Jonas Gustavsson</h1>
         </div>
         <div>
-          <h2 className={styles.title}>Why</h2>
-          <span>am I doing this?</span>
+          <h2 className={styles.title}>Who</h2>
+          <span>am I?</span>
         </div>
         <p>
-          The reason I&rsquo;m doing this is not so much about spreading
+          I work professionally as a web developer and create silly little web
+          apps on my spare time.
+          <br />
+          <br />
+          The reason I&rsquo;m writing articles is not so much about spreading
           knowledge (though a nice bonus to be sure) as it is about me learning
-          by teaching. To explain a topic well I have to really push myself to
-          dig deep and understand it.
+          by teaching. To explain a topic well I have to push myself to dig deep
+          and understand it.
         </p>
         <br />
         <p>
