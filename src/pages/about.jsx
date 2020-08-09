@@ -41,7 +41,7 @@ const About = props => {
         </div>
         <p>
           I work professionally as a web developer and create silly little web
-          apps on my spare time.
+          apps in my spare time.
           <br />
           <br />
           The reason I&rsquo;m writing articles is not so much about spreading
