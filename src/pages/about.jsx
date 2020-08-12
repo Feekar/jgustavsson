@@ -5,7 +5,10 @@ import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
 
-import linkIcon from "../../content/assets/external-link.svg";
+import twitterIcon from "../../content/assets/twitter.svg";
+import mailIcon from "../../content/assets/mail.svg";
+import linkedinIcon from "../../content/assets/linkedin.svg";
+import githubIcon from "../../content/assets/github.svg";
 
 import styles from "./styles.module.scss";
 
@@ -56,23 +59,26 @@ const About = props => {
         <ul className={styles.links}>
           <li>
             <a href={twitter}>
-              Twitter <img src={linkIcon} alt="external link" />
+              <img src={twitterIcon} alt="twitter" />
+              Twitter
             </a>
           </li>
           <li>
             <a href={email}>
-              Email <img src={linkIcon} alt="external link" />
+              <img src={mailIcon} alt="external link" />
+              Email
             </a>
           </li>
           <li>
             <a href={linkedIn}>
+              <img src={linkedinIcon} alt="external link" />
               LinkedIn
-              <img src={linkIcon} alt="external link" />
             </a>
           </li>
           <li>
             <a href={github}>
-              GitHub <img src={linkIcon} alt="external link" />
+              <img src={githubIcon} alt="external link" />
+              GitHub
             </a>
           </li>
         </ul>

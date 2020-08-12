@@ -4,21 +4,23 @@ import { Link } from "gatsby";
 import styles from "./styles.module.scss";
 
 // eslint-disable-next-line no-unused-vars
-const LinkButton = ({ text, type, url, icon, target = "_self" }) => {
+const LinkButton = ({ text, type, url, icon, target = "_self", className }) => {
   return type.toLowerCase() === "internal" ? (
-    <Link to={url} className={styles.button}>
-      <img src={icon} alt={text} />
+    <Link to={url} className={`${styles.button} ${className}`}>
       {text}
+
+      <img src={icon} alt={text} />
     </Link>
   ) : (
     <a
       href={url}
-      className={styles.button}
+      className={`${styles.button} ${className}`}
       target={target}
       rel="noopener noreferrer"
     >
-      <img src={icon} alt={text} />
       {text}
+
+      <img src={icon} alt={text} />
     </a>
   );
 };

@@ -27,7 +27,6 @@ const Footer = () => {
     `
   );
 
-  console.log(data.file);
   const {
     site: {
       siteMetadata: {

@@ -1,7 +1,7 @@
 .button {
   color: white;
   background: var(--main-color);
-  padding: 0.2rem 0.5rem;
+  padding: 0.4rem 0.8rem;
   display: flex;
   border-radius: 5px;
   transition: 0.2s;
@@ -15,8 +15,8 @@
   }
 
   img {
-    margin-right: 0.4rem;
+    margin-left: 0.4rem;
     height: 1.2rem;
-    filter: invert(1);
+    filter: brightness(0) invert(1);
   }
 }

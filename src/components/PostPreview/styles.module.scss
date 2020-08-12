@@ -2,9 +2,9 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   background: white;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0.75rem 1.5rem rgba(19, 38, 64, 0.04);
+  box-shadow: var(--shadow);
   border: 1px solid var(--border-color-light);
 
   small {
