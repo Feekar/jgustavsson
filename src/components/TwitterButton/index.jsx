@@ -3,7 +3,7 @@ import LinkButton from "../LinkButton";
 import twitter from "../../../content/assets/twitter.svg";
 
 const TwitterButton = ({ title, href }) => {
-  const twitterText = `https://twitter.com/intent/tweet?text=${title}: ${href} @jgustavssondev`;
+  const twitterText = `https://twitter.com/intent/tweet?text=${title}: ${href} @jgustavssoncom`;
 
   return (
     <LinkButton

@@ -9,7 +9,7 @@ module.exports = {
       "Articles about all things web development. Javascript, CSS, HTML, React.js and more.",
     siteUrl: "https://github.com/feekar/jgustavsson",
     social: {
-      twitter: "https://twitter.com/jgustavssondev",
+      twitter: "https://twitter.com/jgustavssoncom",
       linkedIn: "https://www.linkedin.com/in/jonas-gustavsson-2a72a2108/",
       github: "https://github.com/Feekar/",
       email: "mailto:contact@jgustavsson.com",
