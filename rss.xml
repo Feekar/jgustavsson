@@ -1,4 +1,342 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonas Gustavsson]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/jgustavsson</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Aug 2020 11:52:34 GMT</lastBuildDate><item><title><![CDATA[Javascript understanding Generators and Iterators]]></title><description><![CDATA[Normally I’d cut this into two different articles, but it is impossible to talk about generators without iterators. There are three concepts…]]></description><link>https://github.com/feekar/jgustavsson/iterators-and-generators/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/iterators-and-generators/</guid><pubDate>Fri, 24 Jul 2020 09:53:02 GMT</pubDate><content:encoded>&lt;p&gt;Normally I’d cut this into two different articles, but it is impossible to talk about generators without iterators.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonas Gustavsson]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/jgustavsson</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Aug 2020 14:54:47 GMT</lastBuildDate><item><title><![CDATA[Javascript - 6 useful console.log variants]]></title><description><![CDATA[There are dozens of console methods. In this article I’ll go through some I’ve found the most useful in my work. console.error() console…]]></description><link>https://github.com/feekar/jgustavsson/console/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/console/</guid><pubDate>Sun, 02 Aug 2020 09:55:03 GMT</pubDate><content:encoded>&lt;p&gt;There are dozens of console methods. In this article I’ll go through some I’ve found the most useful in my work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#consoleerror&quot;&gt;console.error()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#consolewarn&quot;&gt;console.warn()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#consoletable&quot;&gt;console.table()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#consoletime&quot;&gt;console.time()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#consoletrace&quot;&gt;console.trace()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#consoledir&quot;&gt;console.dir()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;consoleerror&quot; style=&quot;position:relative;&quot;&gt;console.error()&lt;/h2&gt;
+&lt;p&gt;Prints an error message to the console. Note that this does not actually throw an error, it is purely visual.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Something went wrong&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 233px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a89ba89514f00de4a10559f76f5a872c/a1d58/consoleerror.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 11.504424778761063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAe0lEQVQI10WNPQqDQBhEvf9VUtiFFIpgISIeQNfGXXdx4w+i1SaFL3xapBiYeTMwUdCa8Hzx9W8+1kLfczoH4o2BYYBxhHkG7/95mkB2IuHLAutKFLQhPGIO69jaFoqCM0kgz6GqoCwhTUGpqyPLoOugaaCubya9HO47P/e+kzrn99h4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console error&quot;
+        title=&quot;Console error&quot;
+        src=&quot;/static/a89ba89514f00de4a10559f76f5a872c/a1d58/consoleerror.png&quot;
+        srcset=&quot;/static/a89ba89514f00de4a10559f76f5a872c/2519b/consoleerror.png 113w,
+/static/a89ba89514f00de4a10559f76f5a872c/3684f/consoleerror.png 225w,
+/static/a89ba89514f00de4a10559f76f5a872c/a1d58/consoleerror.png 233w&quot;
+        sizes=&quot;(max-width: 233px) 100vw, 233px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;consolewarn&quot; style=&quot;position:relative;&quot;&gt;console.warn()&lt;/h2&gt;
+&lt;p&gt;Prints a warning message to the console. Much like &lt;code class=&quot;language-text&quot;&gt;console.error()&lt;/code&gt; this is only visual.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Something went mildly wrong&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 287px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8a9ac062f568fd68f0650abd37b799b1/480fd/consolewarn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 9.734513274336283%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAi0lEQVQI1x2N2wqCUBBF+/9/il4qJVO72BWh0sz70ZMpqNBq6GGYPbD2msmopvS1iS4v1OkaFVtUiY3OXHS+oW+u//wutnT6JIzzZ4bWp1We3DYftYcx5DsETMZqRl8ZaOVTRiuS+0Igl0omvs1pygN5aMr2pHgUmUP6WNLVZ3m4o4gsssAQ4UuET36SWJM07YsGWwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console warn&quot;
+        title=&quot;Console warn&quot;
+        src=&quot;/static/8a9ac062f568fd68f0650abd37b799b1/480fd/consolewarn.png&quot;
+        srcset=&quot;/static/8a9ac062f568fd68f0650abd37b799b1/2519b/consolewarn.png 113w,
+/static/8a9ac062f568fd68f0650abd37b799b1/3684f/consolewarn.png 225w,
+/static/8a9ac062f568fd68f0650abd37b799b1/480fd/consolewarn.png 287w&quot;
+        sizes=&quot;(max-width: 287px) 100vw, 287px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;consoletable&quot; style=&quot;position:relative;&quot;&gt;console.table()&lt;/h2&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;console.table()&lt;/code&gt; method takes an array or an object as argument and displays the data in a table.&lt;/p&gt;
+&lt;h4 id=&quot;array&quot; style=&quot;position:relative;&quot;&gt;Array&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; animals &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;ferret&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;llama&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;donkey&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;animals&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 338px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0bcf6944f4d45c9eafbd1c4cd0819c91/2b41d/consoletablearray.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.858407079646017%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAxklEQVQY04VQiw6CMAzc/3+jigODRNCNCabd6yy+ia8mtzbXa7ebapoGWmsURYG63sI59xGVaFaLBaqyRG8MemvfNFY41bUtUkq4R855BjkufT8MiHJ56DpQXSOniIwXndQheKjdvkc/egyUvuJIEeYgL6i2MHoDJzMyMtdxhhNStdJ0p4CRE0b6AL4utHaAazqY5RpHqe+9V507ycLJd4oRv2IyxPJHpNegUoPFMi425xFDgGJmMHtc8x/4m47oWT/gQcKfAX0X0ZOiwvoVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console table array&quot;
+        title=&quot;Console table array&quot;
+        src=&quot;/static/0bcf6944f4d45c9eafbd1c4cd0819c91/2b41d/consoletablearray.png&quot;
+        srcset=&quot;/static/0bcf6944f4d45c9eafbd1c4cd0819c91/2519b/consoletablearray.png 113w,
+/static/0bcf6944f4d45c9eafbd1c4cd0819c91/3684f/consoletablearray.png 225w,
+/static/0bcf6944f4d45c9eafbd1c4cd0819c91/2b41d/consoletablearray.png 338w&quot;
+        sizes=&quot;(max-width: 338px) 100vw, 338px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;object&quot; style=&quot;position:relative;&quot;&gt;Object&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; animal &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Fabio&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ferret&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  length&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;long&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  fur&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;soft&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;animal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 339px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d4b82a46a9be7eb544bc1f8f046e73e2/16caa/consoletableobject.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.823008849557525%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABGUlEQVQoz21Qi5KCMAz0/z/xVEql5QAffcKB0u4l6HjqkZltmnS73XTTdR2EECiKAlpreO/hnHsD95RSEGWJirKj+o/nnxxrLTYsKKVcBOu6Xg7+IQSowwH77RaSRO3lsspbBHkRosDQ9+DIORHyE7QgUe86DLjVGtNB4kaO7twXHjLm+YbN8eJRVg1OJmK4ZsQxof8A94wJsLqFa89wzQkxTuin/DznffghwfZk8LWXONIFbsYH4RVhnGFshFUNbN0ueZU3kKAn+6qqsNttEYPHPTLeI99H7lqMUlCZVnkpzezQovo+wj5GWHeYFoc8qikVQhwRP7k8Mjvszg6a/4TG8tT4RHhk43oY3cDQ454e5/9641Ht+gm/1shnT3BgIEcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console table array&quot;
+        title=&quot;Console table array&quot;
+        src=&quot;/static/d4b82a46a9be7eb544bc1f8f046e73e2/16caa/consoletableobject.png&quot;
+        srcset=&quot;/static/d4b82a46a9be7eb544bc1f8f046e73e2/2519b/consoletableobject.png 113w,
+/static/d4b82a46a9be7eb544bc1f8f046e73e2/3684f/consoletableobject.png 225w,
+/static/d4b82a46a9be7eb544bc1f8f046e73e2/16caa/consoletableobject.png 339w&quot;
+        sizes=&quot;(max-width: 339px) 100vw, 339px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;array-of-objects&quot; style=&quot;position:relative;&quot;&gt;Array of objects&lt;/h4&gt;
+&lt;p&gt;Perhaps the most useful for logging an array of objects:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; animals &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Fabio&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ferret&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Larry&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;llama&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Donald&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;donkey&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;animals&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 337px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9a92c256de82900191f97c4bf6e63a1b/f6b51/consoletablearrayofobjects.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.743362831858406%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABSElEQVQoz01RDW+DIBT0//+7ZUtNmjVdq9UWQfziG7k9sFlmPMC7ew84q77v8Xg80HUd5nnGuq5l5pyjaRoMw1C4ZVn+tMzlOsYYtn9anqvL5YK6rnE+nzFNUyGllNSsxcfnJxrabFOqNJpJy562bfF1OuF6u0Fpc2hvVN45HE9CCB4xBlhr4bYNvrlD/1xhXk8EZ0mLcDRb0lzbwD17KPLYURQteI/KODKFdCAm+AhoF6C1hWK8wMwrnN9BL7Jfkaa5hOIjtJBwNhQt96jGzWPWOyYdC/J6XB3EpCFuHUTzxMgk8W+N/EIqjC0Dq78h7n3h53d95UPEnoCdhoKUd4p0qgX6TtfhAppydPRNErLf0JVN1xPfwQ4cflOlLtJQhRCQ9p2aHcjrzHlj4NgLlv6kpQwj5ZpSOrScMR9gKcOMaA01pMNQjr/7Lxk9l+ZUlAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console table array of objects&quot;
+        title=&quot;Console table array of objects&quot;
+        src=&quot;/static/9a92c256de82900191f97c4bf6e63a1b/f6b51/consoletablearrayofobjects.png&quot;
+        srcset=&quot;/static/9a92c256de82900191f97c4bf6e63a1b/2519b/consoletablearrayofobjects.png 113w,
+/static/9a92c256de82900191f97c4bf6e63a1b/3684f/consoletablearrayofobjects.png 225w,
+/static/9a92c256de82900191f97c4bf6e63a1b/f6b51/consoletablearrayofobjects.png 337w&quot;
+        sizes=&quot;(max-width: 337px) 100vw, 337px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;consoletime&quot; style=&quot;position:relative;&quot;&gt;console.time()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;console.time()&lt;/code&gt; starts a timer to track how long an operation takes. &lt;code class=&quot;language-text&quot;&gt;console.timeEnd()&lt;/code&gt; ends the timer and logs the elapsed time.
+Takes a name as an argument.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;myTimer&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;counter &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;99999999&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;timeEnd&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;myTimer&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 243px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a2f51e641295a931375b19db2721edb7/8aea6/consoletime.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 13.274336283185843%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAjklEQVQI1zVO2wqFIBD0/7+tMCPMF8GHIB+7Sqk5h1k4wjA7l2VV3/fheR6Q+chEKQXv+wrnnKVDzZke9T9LKclOaw3KOYcQAsZxhNYa67pKuCwLuq6D9x4xRszzDGst2DfGYBgG9H0vmKZJPLI6jkOubdsm4FxrxXmeAl7nz+77Fs0+PfJ1XeIxJ+/7jh8j0OKZnUQnuwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console time&quot;
+        title=&quot;Console time&quot;
+        src=&quot;/static/a2f51e641295a931375b19db2721edb7/8aea6/consoletime.png&quot;
+        srcset=&quot;/static/a2f51e641295a931375b19db2721edb7/2519b/consoletime.png 113w,
+/static/a2f51e641295a931375b19db2721edb7/3684f/consoletime.png 225w,
+/static/a2f51e641295a931375b19db2721edb7/8aea6/consoletime.png 243w&quot;
+        sizes=&quot;(max-width: 243px) 100vw, 243px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;consoletrace&quot; style=&quot;position:relative;&quot;&gt;console.trace()&lt;/h2&gt;
+&lt;p&gt;console.trace logs the call stack that exists up until console.trace() was called. Useful in large code bases for debugging purposes.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;firstFunction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;secondFunction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;secondFunction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;firstFunction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 228px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/566e73d5f40f0354ed4570f6d0d37f08/d4770/consoletrace.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.67256637168141%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABfElEQVQoz42S2U7DMBBF+/8fhOCNB3iiRWpp0y1tGmVpAmq2OvtyyR1IEOKBjnQU24knxzOeVFWFpmnQtq3A8TAvy3Jcv5XJbrfD+XyGpmk4HA7Y7/cyDoIAhmHgeDxivV7DdV3cEpOu61AUxYhSCpfLBXVdC3mey9pwkrpuUFS9fU9Vd5KkbTswD5kkSYLVagWa6rqO+XyO7XYrc0LrzWYjttpygcXOw91LgvtpiIdZhFddYbpXkkwM+Vea0YZjGjG+bOrxSdT1ijQvkWQtQlX3zwbXvIHqGRPGcSx1s21bbGjFupmmKVan00nes0Hm6QhN9/D4pvC0TPC8SnBwc6EdErIzaZqOteJGzjkmURRJTWkaxxGCOMM5qGC+F7A/SsHr5wypIY9rWZaY0NJxHDFlV9n9MAzHDrqODcO+YKZneDNSaGYGP6xgeAWa9tuQRtxIfN+XhMTzPFlj04b6uI4F0w2xNAvM+kaQtZXJkX9dm/9iuLQ/0f1h+OYTSzj7yc6rnPgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console trace&quot;
+        title=&quot;Console trace&quot;
+        src=&quot;/static/566e73d5f40f0354ed4570f6d0d37f08/d4770/consoletrace.png&quot;
+        srcset=&quot;/static/566e73d5f40f0354ed4570f6d0d37f08/2519b/consoletrace.png 113w,
+/static/566e73d5f40f0354ed4570f6d0d37f08/3684f/consoletrace.png 225w,
+/static/566e73d5f40f0354ed4570f6d0d37f08/d4770/consoletrace.png 228w&quot;
+        sizes=&quot;(max-width: 228px) 100vw, 228px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;consoledir&quot; style=&quot;position:relative;&quot;&gt;console.dir()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;console.dir()&lt;/code&gt; is very useful for logging DOM elements. Of course you could do this using &lt;code class=&quot;language-text&quot;&gt;console.log()&lt;/code&gt;, but this would
+give you a DOM representation of the element, whereas &lt;code class=&quot;language-text&quot;&gt;console.dir()&lt;/code&gt; gives you the object and its properties.&lt;/p&gt;
+&lt;h4 id=&quot;with-consolelog&quot; style=&quot;position:relative;&quot;&gt;With console.log()&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; buttonElement &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// selects an element&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buttonElement&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 227px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b69f8b3eb755f3e0d1a17855177135c2/9b5be/consoledir1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.62831858407079%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABLUlEQVQoz5VR226DMAzl/39uUh/aTeVSUC+hBAK5AQnhzGFt1Ul7WRLr2I5lH9tJCAF/nbCuv+xlWaL3Ya0vDEvASrExT5SEMYYub9EcavCvO5rPO/pywKQERHUATz/Aiz2UtMiyHkUhkaYD6RJVKWGUgZv9q3DivYfpDMxdY1YTxt4SzliDh27O0HUJb4YtWEoPIRyGwaHtJpiJ2MX76CZi8uzYSI025WC7G/qTQFVdIAaFvDzjmJ1IcuSnArfblYoa9BkHp66afY2eiS1xfMlzVt552M5CXgY462CthXMOSiliJMkeiaGCMXb7H8UIxRQh2eO8sdsYzrOD7hTqHUN75DQ/8YOVgJtm/PckjphNeoThmmZGFeUITbqltiLruLm44Q0fm9xkeZM3/zdloB2Tr4iK6QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console dir 1&quot;
+        title=&quot;Console dir 1&quot;
+        src=&quot;/static/b69f8b3eb755f3e0d1a17855177135c2/9b5be/consoledir1.png&quot;
+        srcset=&quot;/static/b69f8b3eb755f3e0d1a17855177135c2/2519b/consoledir1.png 113w,
+/static/b69f8b3eb755f3e0d1a17855177135c2/3684f/consoledir1.png 225w,
+/static/b69f8b3eb755f3e0d1a17855177135c2/9b5be/consoledir1.png 227w&quot;
+        sizes=&quot;(max-width: 227px) 100vw, 227px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;with-consoledir&quot; style=&quot;position:relative;&quot;&gt;With console.dir()&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; buttonElement &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// selects an element&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;buttonElement&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 234px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/55dae6f5476d473d41a269cfb0b4c593/7235c/consoledir2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 92.0353982300885%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACRElEQVQ4y31U2XLbMAz0//9cH/qQJk3SJrosmzcl6tYWgGOPlCbmiAOCmlntYgEdhmFAXdcwxqAsSjqfoLWCbya8VBPmZQXWlZ/bWrfJp3Xo+x5lWSLLMuRljupYIcvfYNOCn9mEdQOyLIvE6/4K/LBNmrJFU7USYxHgng3Uo0HUEdM8wWgDJnCP6WH7xfZMYCcCOzbweUCrEsWIqBos6wKsF5BpmoTtFXTL+LBN3LuHzwLUk8HpQUE/W5x/adi/Hl3XIfUJRVmgqArJPy/GOWxpJ9MJq1g1soVtRQxrOquW3idhG+qIPvVk2IyUEtq2vZViB8gyQxFhXq0w5LP944ihw/HHCerBwL56mGcHVzqM84g8L3A8HuG9/19yU1/qx9JZanumr+tWDAnRQ1E7Oe+olF+3zU4yR5bIm+uoyWGWHUjyvBCgp9oqhRjjzoi7pjAQb/NCZpBklmpenbDl9mF3rbUkM8f5fMY8zzundzXkeDOFZLP85twKS77nuxQ6DOMgLEMIO6fvtg3L1b+N5GLKG0Vi6iov9dRaixHM9vPE7ACZHdeQ3WXHmRWfeTN4ckkAmSGDMcsvAa9L+o9dJkYMEMoPYDKGGYc60ITMcM5JDblV7jIUZjTDLJOnhMHUo5bcZR7jNAoz/jtx3Jqym+WbKTp9TEq8mEBmcE2ZKefjMMpkWOuE3bcu30z5kKpInnrSAsQ5y7Xvl8mwzso8b9vm28buw4DOdvLXYfm97zHEQZjzPbdRT3nrk7TPOI63Wb7i/AOjF3FmFSjwawAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Console dir 2&quot;
+        title=&quot;Console dir 2&quot;
+        src=&quot;/static/55dae6f5476d473d41a269cfb0b4c593/7235c/consoledir2.png&quot;
+        srcset=&quot;/static/55dae6f5476d473d41a269cfb0b4c593/2519b/consoledir2.png 113w,
+/static/55dae6f5476d473d41a269cfb0b4c593/3684f/consoledir2.png 225w,
+/static/55dae6f5476d473d41a269cfb0b4c593/7235c/consoledir2.png 234w&quot;
+        sizes=&quot;(max-width: 234px) 100vw, 234px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Javascript understanding Generators and Iterators]]></title><description><![CDATA[Normally I’d cut this into two different articles, but it is impossible to talk about generators without iterators. There are three concepts…]]></description><link>https://github.com/feekar/jgustavsson/iterators-and-generators/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/iterators-and-generators/</guid><pubDate>Fri, 24 Jul 2020 09:53:02 GMT</pubDate><content:encoded>&lt;p&gt;Normally I’d cut this into two different articles, but it is impossible to talk about generators without iterators.&lt;/p&gt;
 &lt;p&gt;There are three concepts we must define: &lt;a href=&quot;#iterator&quot;&gt;Iterators&lt;/a&gt;, &lt;a href=&quot;#generator&quot;&gt;generators&lt;/a&gt; and &lt;a href=&quot;#iterable&quot;&gt;iterables&lt;/a&gt;. Let us begin.&lt;/p&gt;
 &lt;h2 id=&quot;iterator&quot; style=&quot;position:relative;&quot;&gt;Iterator&lt;/h2&gt;
 &lt;p&gt;Iterators are a way to pull data from a data source, one item at a time. Any object which implements the &lt;strong&gt;iterator protocol&lt;/strong&gt; is considered
