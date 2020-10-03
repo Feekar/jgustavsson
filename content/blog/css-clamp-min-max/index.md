@@ -1,5 +1,5 @@
 ---
-title: CSS responsive design with clamp min & max
+title: CSS responsive design with clamp min and max
 date: "2020-10-03"
 description: "A very welcome addition to our arsenal of responsive design tools. The min() max() and clamp() functions are now supported in all major browsers. "
 ---
