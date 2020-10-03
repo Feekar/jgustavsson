@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonas Gustavsson]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/jgustavsson</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Aug 2020 14:26:54 GMT</lastBuildDate><item><title><![CDATA[Cleaner JavaScript with optional chaining]]></title><description><![CDATA[When you try to access a property of an undefined object you get the oh-so common  Because  doesn´t exist we get an error. To avoid this we…]]></description><link>https://github.com/feekar/jgustavsson/optional-chaining/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/optional-chaining/</guid><pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When you try to access a property of an undefined object you get the oh-so common &lt;code class=&quot;language-text&quot;&gt;Cannot read property x of undefined.&lt;/code&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonas Gustavsson]]></title><description><![CDATA[Articles about all things web development. Javascript, CSS, HTML, React.js and more.]]></description><link>https://github.com/feekar/jgustavsson</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 03 Oct 2020 12:54:57 GMT</lastBuildDate><item><title><![CDATA[CSS responsive design with clamp min & max]]></title><description><![CDATA[min() The  lets you set the smallest value from a list of values.
+For example: With this our box will have a width of  or . Whichever is the…]]></description><link>https://github.com/feekar/jgustavsson/css-clamp-min-max/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/css-clamp-min-max/</guid><pubDate>Sat, 03 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;min&quot; style=&quot;position:relative;&quot;&gt;min()&lt;/h2&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;min()&lt;/code&gt; lets you set the smallest value from a list of values.
+For example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;50vw&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 500px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;With this our box will have a width of &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;500px&lt;/code&gt;. Whichever is the smallest.&lt;/p&gt;
+&lt;p&gt;If &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; (50% of the viewport width) computes to a lower value than &lt;code class=&quot;language-text&quot;&gt;500px&lt;/code&gt; the element will be &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; wide.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/13b08a53c1e34480a843ddfbc4b7067d/21b4d/min.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABK0lEQVQoz6WSbUvDMBSF9/9/jmxfdMJQHGjbORFsJ2N9W9akW7Xt8tom0esG25dWJh4ON+de8sAlZBCGYZqmCCEIGca+HxRFQSndd4keBEEIEUfRABJjDBqYWaNZXRqtv36VtRYqwXhwahptFzu5/GyCLfdzFuzEopAnB4Vcfkht7BnOsjNcK3vl74bzePS6Hr4k9yl/QPLkKZKTmLHG9MDSTGLuYelkysXSJVCPllC9XE0R572w0pOEz3LlksbLW480bt54RP0EmGA1XffDldTjiLmkHS/IaB5dv22Gz+GNv4F8+751SHuX9K8tWvOIuJsJBzEHUWdzqIg9HXMmZljAo3bDl6sbhhNSr20XbIyxfxHcBwr/a234Yfu6rsuyrqrLXZUlozRarb4BvLbk4aFVRkQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;min&quot;
+        title=&quot;min&quot;
+        src=&quot;/static/13b08a53c1e34480a843ddfbc4b7067d/fc2a6/min.png&quot;
+        srcset=&quot;/static/13b08a53c1e34480a843ddfbc4b7067d/2519b/min.png 113w,
+/static/13b08a53c1e34480a843ddfbc4b7067d/3684f/min.png 225w,
+/static/13b08a53c1e34480a843ddfbc4b7067d/fc2a6/min.png 450w,
+/static/13b08a53c1e34480a843ddfbc4b7067d/23296/min.png 675w,
+/static/13b08a53c1e34480a843ddfbc4b7067d/1cfc2/min.png 900w,
+/static/13b08a53c1e34480a843ddfbc4b7067d/21b4d/min.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the example above the viewport is 600 pixels wide. &lt;code class=&quot;language-text&quot;&gt;min(50vw, 500px)&lt;/code&gt; will therefore return &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; because 50% of 600 pixels is 300 pixels. And 300 is less than 500.&lt;/p&gt;
+&lt;h2 id=&quot;max&quot; style=&quot;position:relative;&quot;&gt;max()&lt;/h2&gt;
+&lt;p&gt;Works much the same as its brother &lt;code class=&quot;language-text&quot;&gt;min()&lt;/code&gt; but it picks the largest value from a list of values.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;50vw&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 500px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; margin-left: 0; max-width: 450px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/280aa5114fa2f6b6f3a56140b91e17bf/21b4d/max.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83185840707964%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABcklEQVQ4y62UW0vDQBCF8///jFj1QUUfxGqbpKiIvSFNL7nWprS57aZpcpxN01uQqOjCx5mdnTkwWTaSpmkYj8fQdR2DwQCWZaHT6cJ1XQRBAM/zf4AHFkUYkZfk+z4SzrCOGXgUAGmCwFuAAvx2ObYNSbR1Zhz9eYy+G6M7YxSv0BPxB6M9z3Nfw9GmGm3Oc0ObppO8VYbT9gxnT0Ocv0xQI70bBagbHPc6q6RuCOWoT8J8HmdreDsMoVoMMqEQqhNDtXlBXNJtvEc2opLhKETLWUGhww3URPsjKN+aJnmsWHxXp5QNl3GGay3MDxomR9MSynDVNnHxPCS1UGu946Y3xUmzh8s3E4qTFLUcDap/1A9GZmvgYSJGjqCae2QjhKwHO1VIm8VefJ68jnpk0lcn2tyyMNxceFaAA61a2XGcZftbzlOUyIr8nqyC49o0LRmmafqNQTWiPzc0ze3I/7OmjkNPj97hcrH4MwE9YY3+BZ9h0Nwyybi6YwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;max&quot;
+        title=&quot;max&quot;
+        src=&quot;/static/280aa5114fa2f6b6f3a56140b91e17bf/fc2a6/max.png&quot;
+        srcset=&quot;/static/280aa5114fa2f6b6f3a56140b91e17bf/2519b/max.png 113w,
+/static/280aa5114fa2f6b6f3a56140b91e17bf/3684f/max.png 225w,
+/static/280aa5114fa2f6b6f3a56140b91e17bf/fc2a6/max.png 450w,
+/static/280aa5114fa2f6b6f3a56140b91e17bf/23296/max.png 675w,
+/static/280aa5114fa2f6b6f3a56140b91e17bf/1cfc2/max.png 900w,
+/static/280aa5114fa2f6b6f3a56140b91e17bf/21b4d/max.png 1280w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this example our box gets a width of 500 pixels. Because 500 is greater than 300 (50% of the viewport).&lt;/p&gt;
+&lt;h2 id=&quot;clamp&quot; style=&quot;position:relative;&quot;&gt;clamp()&lt;/h2&gt;
+&lt;p&gt;Clamp is effectively a combination of the &lt;code class=&quot;language-text&quot;&gt;min()&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;max()&lt;/code&gt; functions. It accepts three parameters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;minimum value&lt;/li&gt;
+&lt;li&gt;preferred value&lt;/li&gt;
+&lt;li&gt;maximum value&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Consider this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;clamp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;400px&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 50vw&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 1200px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will ensure three things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The width will never go below &lt;code class=&quot;language-text&quot;&gt;400px&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The width will be &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; as long as it’s not smaller than &lt;code class=&quot;language-text&quot;&gt;400px&lt;/code&gt; or larger than &lt;code class=&quot;language-text&quot;&gt;1200px&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The width will never go above &lt;code class=&quot;language-text&quot;&gt;1200px&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other words, this makes it so that the box’s width is &lt;code class=&quot;language-text&quot;&gt;50vw&lt;/code&gt; but never smaller than &lt;code class=&quot;language-text&quot;&gt;400px&lt;/code&gt; or larger than &lt;code class=&quot;language-text&quot;&gt;1200px&lt;/code&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cleaner JavaScript with optional chaining]]></title><description><![CDATA[When you try to access a property of an undefined object you get the oh-so common  Because  doesn´t exist we get an error. To avoid this we…]]></description><link>https://github.com/feekar/jgustavsson/optional-chaining/</link><guid isPermaLink="false">https://github.com/feekar/jgustavsson/optional-chaining/</guid><pubDate>Tue, 18 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When you try to access a property of an undefined object you get the oh-so common &lt;code class=&quot;language-text&quot;&gt;Cannot read property x of undefined.&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; jedi &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Luke&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; lightsaberColor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; jedi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lightsaber&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;// Cannot read property color of undefined.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
