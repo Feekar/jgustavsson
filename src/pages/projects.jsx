@@ -23,12 +23,12 @@ const projects = ({ data }) => {
       image: images.find(image => image.originalName === "jgustavsson.png"),
     },
     {
-      name: "My bot dad",
+      name: "Workout Planner",
       description:
-        "Why have a dad when you can have a bot dad? Yeah I don't know why I made this ¯\\_(ツ)_/¯. Vanilla JavaScript and CSS.",
-      url: "https://feekar.github.io/my-bot-dad/",
-      github: "https://github.com/Feekar/my-bot-dad",
-      image: images.find(image => image.originalName === "my-dad-bot.png"),
+        "A workout planner I made for personal use. ReactJS & Firebase.",
+      url: "https://feekar.github.io/woplanner/",
+      github: "https://github.com/Feekar/woplanner",
+      image: images.find(image => image.originalName === "woplanner.png"),
     },
     {
       name: "Träverkstaden",
@@ -37,6 +37,14 @@ const projects = ({ data }) => {
       url: "https://traverkstaden.netlify.app/",
       github: "https://github.com/Feekar/traverkstaden",
       image: images.find(image => image.originalName === "traverkstaden.png"),
+    },
+    {
+      name: "My bot dad",
+      description:
+        "Why have a dad when you can have a bot dad? Yeah I don't know why I made this ¯\\_(ツ)_/¯. Vanilla JavaScript and CSS.",
+      url: "https://feekar.github.io/my-bot-dad/",
+      github: "https://github.com/Feekar/my-bot-dad",
+      image: images.find(image => image.originalName === "my-dad-bot.png"),
     },
   ];
 
