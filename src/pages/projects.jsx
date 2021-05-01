@@ -31,10 +31,18 @@ const projects = ({ data }) => {
       image: images.find(image => image.originalName === "woplanner.png"),
     },
     {
+      name: "Träverkstaden store concept",
+      description:
+        "A concept store for Träverkstaden. Made with GatsbyJS and Netlify CMS.",
+      url: "https://traverkstaden.netlify.app/",
+      github: "https://github.com/Feekar/traverkstaden-store-concept",
+      image: images.find(image => image.originalName === "traverkstadenStore.png"),
+    },
+    {
       name: "Träverkstaden",
       description:
-        "A not yet finished portfolio for a furniture maker. Made with GatsbyJS and Netlify CMS.",
-      url: "https://traverkstaden.netlify.app/",
+        "Simple landing page for Träverkstaden. Uses google maps api.",
+      url: "https://feekar.github.io/traverkstaden/",
       github: "https://github.com/Feekar/traverkstaden",
       image: images.find(image => image.originalName === "traverkstaden.png"),
     },
